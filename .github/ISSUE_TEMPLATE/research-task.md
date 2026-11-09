@@ -1,4 +1,3 @@
-
 ---
 name: Research Task
 about: Create a research, data, implementation, experiment, or writing task
