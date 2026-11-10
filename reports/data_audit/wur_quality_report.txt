@@ -1,0 +1,1240 @@
+WUR DATASET QUALITY AUDIT
+==========================================================================================
+Dataset: /home/vtrnnhlinh/Documents/POLAR-Cuke/data/raw/wur
+Generated: 2026-11-10 23:01:04.060113
+Teams inspected: 6
+Team names: ['AiCU', 'Croperators', 'DeepGreens', 'Reference(Growers)', 'Sonoma', 'iGrow']
+==========================================================================================
+
+
+==========================================================================================
+1. MISSING VALUES PER COLUMN AND TEAM
+==========================================================================================
+
+TEAM: AiCU
+
+  FILE: CropManagement.csv
+  Rows: 16
+  Total missing cells: 4
+  FruitGrw: 2 (12.50%)
+  LeafFormRate: 1 (6.25%)
+  Pruning: 1 (6.25%)
+
+  FILE: Greenhouse_climate.csv
+  Rows: 33,133
+  Total missing cells: 1,563
+  AssimLight: 142 (0.43%)
+  BlackScr: 142 (0.43%)
+  CO2air: 142 (0.43%)
+  EnScr: 142 (0.43%)
+  HumDef: 142 (0.43%)
+  PipeGrow: 142 (0.43%)
+  PipeLow: 142 (0.43%)
+  RHair: 143 (0.43%)
+  Tair: 142 (0.43%)
+  VentLee: 142 (0.43%)
+  Ventwind: 142 (0.43%)
+
+  FILE: Irrigation.csv
+  Rows: 116
+  Total missing cells: 2
+  drain: 1 (0.86%)
+  water: 1 (0.86%)
+
+  FILE: Production.csv
+  Rows: 116
+  Total missing cells: 0
+  No missing values detected.
+
+  FILE: ResourceCalculations.csv
+  Rows: 116
+  Total missing cells: 1
+  net_water: 1 (0.86%)
+
+  FILE: vip.csv
+  Rows: 33,133
+  Total missing cells: 40,865
+  CO2_Vip: 580 (1.75%)
+  HeatTemp_Vip_1: 141 (0.43%)
+  HeatTemp_Vip_2: 141 (0.43%)
+  HeatTemp_Vip_3: 141 (0.43%)
+  HeatTemp_Vip_4: 33,133 (100.00%)
+  HeatTemp_Vip_5: 141 (0.43%)
+  HeatTemp_Vip_6: 141 (0.43%)
+  HumDef_Vip: 141 (0.43%)
+  MinPipeGrow_Vip: 141 (0.43%)
+  MinPipeLow_Vip: 141 (0.43%)
+  VentLeewMin_Vip_1: 142 (0.43%)
+  VentLeewMin_Vip_2: 142 (0.43%)
+  VentLeewMin_Vip_3: 142 (0.43%)
+  VentLeewMin_Vip_4: 142 (0.43%)
+  VentLeewMin_Vip_5: 142 (0.43%)
+  VentLeewMin_Vip_6: 142 (0.43%)
+  VentLeew_Vip_1: 141 (0.43%)
+  VentLeew_Vip_2: 141 (0.43%)
+  VentLeew_Vip_3: 141 (0.43%)
+  VentLeew_Vip_4: 141 (0.43%)
+  VentLeew_Vip_5: 141 (0.43%)
+  VentLeew_Vip_6: 141 (0.43%)
+  VentWind_Vip_1: 141 (0.43%)
+  VentWind_Vip_2: 141 (0.43%)
+  VentWind_Vip_3: 141 (0.43%)
+  VentWind_Vip_4: 141 (0.43%)
+  VentWind_Vip_5: 141 (0.43%)
+  VentWind_Vip_6: 141 (0.43%)
+  WaterSupInt_Vip_1: 580 (1.75%)
+  WaterSupInt_Vip_2: 580 (1.75%)
+  WaterSupInt_Vip_3: 580 (1.75%)
+  WaterSupInt_Vip_4: 580 (1.75%)
+  WaterSupInt_Vip_5: 580 (1.75%)
+  WaterSupInt_Vip_6: 580 (1.75%)
+
+TEAM: Croperators
+
+  FILE: CropManagement.csv
+  Rows: 16
+  Total missing cells: 4
+  FruitGrw: 2 (12.50%)
+  LeafFormRate: 1 (6.25%)
+  Pruning: 1 (6.25%)
+
+  FILE: Greenhouse_climate.csv
+  Rows: 33,133
+  Total missing cells: 1,562
+  AssimLight: 142 (0.43%)
+  BlackScr: 142 (0.43%)
+  CO2air: 142 (0.43%)
+  EnScr: 142 (0.43%)
+  HumDef: 142 (0.43%)
+  PipeGrow: 142 (0.43%)
+  PipeLow: 142 (0.43%)
+  RHair: 142 (0.43%)
+  Tair: 142 (0.43%)
+  VentLee: 142 (0.43%)
+  Ventwind: 142 (0.43%)
+
+  FILE: Irrigation.csv
+  Rows: 116
+  Total missing cells: 2
+  drain: 1 (0.86%)
+  water: 1 (0.86%)
+
+  FILE: Production.csv
+  Rows: 116
+  Total missing cells: 0
+  No missing values detected.
+
+  FILE: ResourceCalculations.csv
+  Rows: 116
+  Total missing cells: 1
+  net_water: 1 (0.86%)
+
+  FILE: vip.csv
+  Rows: 33,133
+  Total missing cells: 2,148
+  CO2_Vip: 580 (1.75%)
+  HeatTemp_Vip: 141 (0.43%)
+  HumDef_Vip: 141 (0.43%)
+  MinPipeGrow_Vip: 141 (0.43%)
+  MinPipeLow_Vip: 141 (0.43%)
+  VentLeewMin_Vip: 142 (0.43%)
+  VentLeew_Vip: 141 (0.43%)
+  VentWind_Vip: 141 (0.43%)
+  WaterSupInt_Vip: 580 (1.75%)
+
+TEAM: DeepGreens
+
+  FILE: CropManagement.csv
+  Rows: 16
+  Total missing cells: 4
+  FruitGrw: 2 (12.50%)
+  LeafFormRate: 1 (6.25%)
+  Pruning: 1 (6.25%)
+
+  FILE: Greenhouse_climate.csv
+  Rows: 33,133
+  Total missing cells: 34,554
+  AssimLight: 142 (0.43%)
+  BlackScr: 33,133 (100.00%)
+  CO2air: 142 (0.43%)
+  EnScr: 142 (0.43%)
+  HumDef: 142 (0.43%)
+  PipeGrow: 142 (0.43%)
+  PipeLow: 142 (0.43%)
+  RHair: 143 (0.43%)
+  Tair: 142 (0.43%)
+  VentLee: 142 (0.43%)
+  Ventwind: 142 (0.43%)
+
+  FILE: Irrigation.csv
+  Rows: 116
+  Total missing cells: 2
+  drain: 1 (0.86%)
+  water: 1 (0.86%)
+
+  FILE: Production.csv
+  Rows: 116
+  Total missing cells: 0
+  No missing values detected.
+
+  FILE: ResourceCalculations.csv
+  Rows: 116
+  Total missing cells: 1
+  net_water: 1 (0.86%)
+
+  FILE: vip.csv
+  Rows: 33,133
+  Total missing cells: 2,148
+  CO2_Vip: 580 (1.75%)
+  HeatTemp_Vip: 141 (0.43%)
+  HumDef_Vip: 141 (0.43%)
+  MinPipeGrow_Vip: 141 (0.43%)
+  MinPipeLow_Vip: 141 (0.43%)
+  VentLeewMin_Vip: 142 (0.43%)
+  VentLeew_Vip: 141 (0.43%)
+  VentWind_Vip: 141 (0.43%)
+  WaterSupInt_Vip: 580 (1.75%)
+
+TEAM: Reference(Growers)
+
+  FILE: CropManagement.csv
+  Rows: 16
+  Total missing cells: 12
+  FruitGrw: 2 (12.50%)
+  LeafFormRate: 3 (18.75%)
+  N_leaves: 3 (18.75%)
+  Pruning: 1 (6.25%)
+  Stem_elong: 3 (18.75%)
+
+  FILE: Greenhouse_climate.csv
+  Rows: 33,133
+  Total missing cells: 1,563
+  AssimLight: 142 (0.43%)
+  BlackScr: 142 (0.43%)
+  CO2air: 142 (0.43%)
+  EnScr: 142 (0.43%)
+  HumDef: 142 (0.43%)
+  PipeGrow: 142 (0.43%)
+  PipeLow: 142 (0.43%)
+  RHair: 143 (0.43%)
+  Tair: 142 (0.43%)
+  VentLee: 142 (0.43%)
+  Ventwind: 142 (0.43%)
+
+  FILE: Irrigation.csv
+  Rows: 116
+  Total missing cells: 2
+  drain: 1 (0.86%)
+  water: 1 (0.86%)
+
+  FILE: Production.csv
+  Rows: 116
+  Total missing cells: 0
+  No missing values detected.
+
+  FILE: ResourceCalculations.csv
+  Rows: 116
+  Total missing cells: 1
+  net_water: 1 (0.86%)
+
+  FILE: vip.csv
+  Rows: 33,133
+  Total missing cells: 2,148
+  CO2_Vip: 580 (1.75%)
+  HeatTemp_Vip: 141 (0.43%)
+  HumDef_Vip: 141 (0.43%)
+  MinPipeGrow_Vip: 141 (0.43%)
+  MinPipeLow_Vip: 141 (0.43%)
+  VentLeewMin_Vip: 142 (0.43%)
+  VentLeew_Vip: 141 (0.43%)
+  VentWind_Vip: 141 (0.43%)
+  WaterSupInt_Vip: 580 (1.75%)
+
+TEAM: Sonoma
+
+  FILE: CropManagement.csv
+  Rows: 16
+  Total missing cells: 4
+  FruitGrw: 2 (12.50%)
+  LeafFormRate: 1 (6.25%)
+  Pruning: 1 (6.25%)
+
+  FILE: Greenhouse_climate.csv
+  Rows: 33,133
+  Total missing cells: 1,563
+  AssimLight: 142 (0.43%)
+  BlackScr: 142 (0.43%)
+  CO2air: 142 (0.43%)
+  EnScr: 142 (0.43%)
+  HumDef: 142 (0.43%)
+  PipeGrow: 142 (0.43%)
+  PipeLow: 142 (0.43%)
+  RHair: 143 (0.43%)
+  Tair: 142 (0.43%)
+  VentLee: 142 (0.43%)
+  Ventwind: 142 (0.43%)
+
+  FILE: Irrigation.csv
+  Rows: 116
+  Total missing cells: 2
+  drain: 1 (0.86%)
+  water: 1 (0.86%)
+
+  FILE: Production.csv
+  Rows: 116
+  Total missing cells: 0
+  No missing values detected.
+
+  FILE: ResourceCalculations.csv
+  Rows: 116
+  Total missing cells: 1
+  net_water: 1 (0.86%)
+
+  FILE: vip.csv
+  Rows: 33,133
+  Total missing cells: 2,148
+  CO2_Vip: 580 (1.75%)
+  HeatTemp_Vip: 141 (0.43%)
+  HumDef_Vip: 141 (0.43%)
+  MinPipeGrow_Vip: 141 (0.43%)
+  MinPipeLow_Vip: 141 (0.43%)
+  VentLeewMin_Vip: 142 (0.43%)
+  VentLeew_Vip: 141 (0.43%)
+  VentWind_Vip: 141 (0.43%)
+  WaterSupInt_Vip: 580 (1.75%)
+
+TEAM: iGrow
+
+  FILE: CropManagement.csv
+  Rows: 16
+  Total missing cells: 4
+  FruitGrw: 2 (12.50%)
+  LeafFormRate: 1 (6.25%)
+  Pruning: 1 (6.25%)
+
+  FILE: Greenhouse_climate.csv
+  Rows: 33,133
+  Total missing cells: 1,563
+  AssimLight: 142 (0.43%)
+  BlackScr: 142 (0.43%)
+  CO2air: 142 (0.43%)
+  EnScr: 142 (0.43%)
+  HumDef: 142 (0.43%)
+  PipeGrow: 142 (0.43%)
+  PipeLow: 142 (0.43%)
+  RHair: 143 (0.43%)
+  Tair: 142 (0.43%)
+  VentLee: 142 (0.43%)
+  Ventwind: 142 (0.43%)
+
+  FILE: Irrigation.csv
+  Rows: 116
+  Total missing cells: 2
+  drain: 1 (0.86%)
+  water: 1 (0.86%)
+
+  FILE: Production.csv
+  Rows: 116
+  Total missing cells: 0
+  No missing values detected.
+
+  FILE: ResourceCalculations.csv
+  Rows: 116
+  Total missing cells: 1
+  net_water: 1 (0.86%)
+
+  FILE: vip.csv
+  Rows: 33,133
+  Total missing cells: 2,148
+  CO2_Vip: 580 (1.75%)
+  HeatTemp_Vip: 141 (0.43%)
+  HumDef_Vip: 141 (0.43%)
+  MinPipeGrow_Vip: 141 (0.43%)
+  MinPipeLow_Vip: 141 (0.43%)
+  VentLeewMin_Vip: 142 (0.43%)
+  VentLeew_Vip: 141 (0.43%)
+  VentWind_Vip: 141 (0.43%)
+  WaterSupInt_Vip: 580 (1.75%)
+
+
+==========================================================================================
+2. DUPLICATE TIMESTAMPS
+==========================================================================================
+
+TEAM: AiCU
+
+  FILE: Greenhouse_climate.csv
+  Timestamp column: GHtime
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Irrigation.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Production.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: ResourceCalculations.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: vip.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+TEAM: Croperators
+
+  FILE: Greenhouse_climate.csv
+  Timestamp column: GHtime
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Irrigation.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Production.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: ResourceCalculations.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: vip.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+TEAM: DeepGreens
+
+  FILE: Greenhouse_climate.csv
+  Timestamp column: GHtime
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Irrigation.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Production.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: ResourceCalculations.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: vip.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+TEAM: Reference(Growers)
+
+  FILE: Greenhouse_climate.csv
+  Timestamp column: GHtime
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Irrigation.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Production.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: ResourceCalculations.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: vip.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+TEAM: Sonoma
+
+  FILE: Greenhouse_climate.csv
+  Timestamp column: GHtime
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Irrigation.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Production.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: ResourceCalculations.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: vip.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+TEAM: iGrow
+
+  FILE: Greenhouse_climate.csv
+  Timestamp column: GHtime
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Irrigation.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: Production.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: ResourceCalculations.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+  FILE: vip.csv
+  Timestamp column: time
+  Invalid timestamps: 0
+  Rows involved in duplicates: 0
+  Duplicate timestamp values: 0
+
+
+==========================================================================================
+3. MISSING FIVE-MINUTE CLIMATE INTERVALS
+==========================================================================================
+
+TEAM: AiCU
+  First timestamp: 2018-08-14 00:00:00
+  Last timestamp:  2018-12-07 01:00:00
+  Observed unique timestamps: 33,133
+  Expected timestamps: 33,133
+  Missing five-minute timestamps: 0
+  Missing interval percentage: 0.0000%
+  Gaps larger than five minutes: 0
+
+TEAM: Croperators
+  First timestamp: 2018-08-14 00:00:00
+  Last timestamp:  2018-12-07 01:00:00
+  Observed unique timestamps: 33,133
+  Expected timestamps: 33,133
+  Missing five-minute timestamps: 0
+  Missing interval percentage: 0.0000%
+  Gaps larger than five minutes: 0
+
+TEAM: DeepGreens
+  First timestamp: 2018-08-14 00:00:00
+  Last timestamp:  2018-12-07 01:00:00
+  Observed unique timestamps: 33,133
+  Expected timestamps: 33,133
+  Missing five-minute timestamps: 0
+  Missing interval percentage: 0.0000%
+  Gaps larger than five minutes: 0
+
+TEAM: Reference(Growers)
+  First timestamp: 2018-08-14 00:00:00
+  Last timestamp:  2018-12-07 01:00:00
+  Observed unique timestamps: 33,133
+  Expected timestamps: 33,133
+  Missing five-minute timestamps: 0
+  Missing interval percentage: 0.0000%
+  Gaps larger than five minutes: 0
+
+TEAM: Sonoma
+  First timestamp: 2018-08-14 00:00:00
+  Last timestamp:  2018-12-07 01:00:00
+  Observed unique timestamps: 33,133
+  Expected timestamps: 33,133
+  Missing five-minute timestamps: 0
+  Missing interval percentage: 0.0000%
+  Gaps larger than five minutes: 0
+
+TEAM: iGrow
+  First timestamp: 2018-08-14 00:00:00
+  Last timestamp:  2018-12-07 01:00:00
+  Observed unique timestamps: 33,133
+  Expected timestamps: 33,133
+  Missing five-minute timestamps: 0
+  Missing interval percentage: 0.0000%
+  Gaps larger than five minutes: 0
+
+
+==========================================================================================
+4. MISSING DAILY PRODUCTION OBSERVATIONS
+==========================================================================================
+
+TEAM: AiCU
+  First date: 2018-08-14
+  Last date:  2018-12-07
+  Observed unique dates: 116
+  Expected calendar dates: 116
+  Missing dates: 0
+  Missing date percentage: 0.0000%
+
+TEAM: Croperators
+  First date: 2018-08-14
+  Last date:  2018-12-07
+  Observed unique dates: 116
+  Expected calendar dates: 116
+  Missing dates: 0
+  Missing date percentage: 0.0000%
+
+TEAM: DeepGreens
+  First date: 2018-08-14
+  Last date:  2018-12-07
+  Observed unique dates: 116
+  Expected calendar dates: 116
+  Missing dates: 0
+  Missing date percentage: 0.0000%
+
+TEAM: Reference(Growers)
+  First date: 2018-08-14
+  Last date:  2018-12-07
+  Observed unique dates: 116
+  Expected calendar dates: 116
+  Missing dates: 0
+  Missing date percentage: 0.0000%
+
+TEAM: Sonoma
+  First date: 2018-08-14
+  Last date:  2018-12-07
+  Observed unique dates: 116
+  Expected calendar dates: 116
+  Missing dates: 0
+  Missing date percentage: 0.0000%
+
+TEAM: iGrow
+  First date: 2018-08-14
+  Last date:  2018-12-07
+  Observed unique dates: 116
+  Expected calendar dates: 116
+  Missing dates: 0
+  Missing date percentage: 0.0000%
+
+
+==========================================================================================
+5. NEGATIVE DIFFERENCES IN CUMULATIVE PRODUCTION
+==========================================================================================
+
+TEAM: AiCU
+
+  ProdA_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.1774590163934393
+
+  ProdB_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.1888524590164007
+
+  Total_Prod_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.2353688524590964
+
+TEAM: Croperators
+
+  ProdA_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.3563114754098002
+
+  ProdB_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.5431967213114794
+
+  Total_Prod_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.6804918032786986
+
+TEAM: DeepGreens
+
+  ProdA_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.4850819672130982
+
+  ProdB_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 0.19885245901639304
+
+  Total_Prod_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.4850819672130982
+
+TEAM: Reference(Growers)
+
+  ProdA_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.4409836065574027
+
+  ProdB_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: -9.992007221626409e-16
+    Maximum difference: 0.17213114754098502
+
+  Total_Prod_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.4544672131147003
+
+TEAM: Sonoma
+
+  ProdA_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.9648360655736994
+
+  ProdB_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 0.004754098360653103
+
+  Total_Prod_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.9695901639343987
+
+TEAM: iGrow
+
+  ProdA_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.5872950819672171
+
+  ProdB_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 0.5279508196721299
+
+  Total_Prod_cum
+    Valid values: 116
+    Negative differences: 0
+    Missing differences: 1
+    Minimum difference: 0.0
+    Maximum difference: 1.6456557377049172
+
+
+==========================================================================================
+6. TOTAL_PROD_CUM = ProdA_cum + ProdB_cum
+==========================================================================================
+
+TEAM: AiCU
+  Comparable observations: 116
+  Matching observations: 116
+  Mismatching observations: 0
+  Maximum absolute difference: 0.0000000000
+  Mean absolute difference: 0.0000000000
+
+TEAM: Croperators
+  Comparable observations: 116
+  Matching observations: 116
+  Mismatching observations: 0
+  Maximum absolute difference: 0.0000000000
+  Mean absolute difference: 0.0000000000
+
+TEAM: DeepGreens
+  Comparable observations: 116
+  Matching observations: 116
+  Mismatching observations: 0
+  Maximum absolute difference: 0.0000000000
+  Mean absolute difference: 0.0000000000
+
+TEAM: Reference(Growers)
+  Comparable observations: 116
+  Matching observations: 116
+  Mismatching observations: 0
+  Maximum absolute difference: 0.0000000000
+  Mean absolute difference: 0.0000000000
+
+TEAM: Sonoma
+  Comparable observations: 116
+  Matching observations: 116
+  Mismatching observations: 0
+  Maximum absolute difference: 0.0000000000
+  Mean absolute difference: 0.0000000000
+
+TEAM: iGrow
+  Comparable observations: 116
+  Matching observations: 116
+  Mismatching observations: 0
+  Maximum absolute difference: 0.0000000000
+  Mean absolute difference: 0.0000000000
+
+
+==========================================================================================
+7. BEHAVIOR OF ProdA_num AND ProdB_num
+==========================================================================================
+
+TEAM: AiCU
+
+  ProdA_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 3.9344262295082
+    Negative differences: 41
+    Positive differences: 42
+    Zero differences: 32
+    Non-decreasing difference ratio: 64.35%
+    Integer-like value ratio: 35.34%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.0, 0.122950819672131, 0.491803278688525, 0.163934426229508, 0.0, 0.860655737704918, 0.69672131147541, 0.122950819672131, 0.409836065573771, 0.409836065573771]
+
+  ProdB_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 4.26229508196721
+    Negative differences: 32
+    Positive differences: 34
+    Zero differences: 49
+    Non-decreasing difference ratio: 72.17%
+    Integer-like value ratio: 52.59%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.0, 4.26229508196721, 2.41803278688525, 0.0, 0.0, 1.10655737704918, 0.860655737704918, 0.0409836065573771, 0.368852459016393, 2.54098360655738]
+
+TEAM: Croperators
+
+  ProdA_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 3.4016393442623
+    Negative differences: 50
+    Positive differences: 41
+    Zero differences: 24
+    Non-decreasing difference ratio: 56.52%
+    Integer-like value ratio: 32.76%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.983606557377049, 2.82786885245902, 2.33606557377049, 0.0819672131147541, 0.0, 2.86885245901639, 1.68032786885246, 0.0819672131147541, 1.02459016393443, 0.368852459016393]
+
+  ProdB_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 5.04098360655738
+    Negative differences: 27
+    Positive differences: 27
+    Zero differences: 61
+    Non-decreasing difference ratio: 76.52%
+    Integer-like value ratio: 68.97%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.0, 0.778688524590164, 1.02459016393443, 0.0, 0.0, 0.69672131147541, 0.286885245901639, 0.0409836065573771, 0.409836065573771, 5.04098360655738]
+
+TEAM: DeepGreens
+
+  ProdA_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 3.89344262295082
+    Negative differences: 50
+    Positive differences: 40
+    Zero differences: 25
+    Non-decreasing difference ratio: 56.52%
+    Integer-like value ratio: 31.90%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [1.27049180327869, 1.27049180327869, 0.450819672131148, 0.286885245901639, 0.0, 1.14754098360656, 1.22950819672131, 0.901639344262295, 1.35245901639344, 1.72131147540984]
+
+  ProdB_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 0.69672131147541
+    Negative differences: 25
+    Positive differences: 30
+    Zero differences: 60
+    Non-decreasing difference ratio: 78.26%
+    Integer-like value ratio: 68.10%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.0, 0.163934426229508, 0.122950819672131, 0.122950819672131, 0.0, 0.0819672131147541, 0.0, 0.0, 0.0409836065573771, 0.573770491803279]
+
+TEAM: Reference(Growers)
+
+  ProdA_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 3.68852459016393
+    Negative differences: 51
+    Positive differences: 38
+    Zero differences: 26
+    Non-decreasing difference ratio: 55.65%
+    Integer-like value ratio: 32.76%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [2.99180327868852, 2.70491803278689, 2.58196721311475, 0.614754098360656, 0.0, 3.27868852459016, 2.25409836065574, 0.860655737704918, 2.74590163934426, 1.80327868852459]
+
+  ProdB_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 0.532786885245902
+    Negative differences: 27
+    Positive differences: 28
+    Zero differences: 60
+    Non-decreasing difference ratio: 76.52%
+    Integer-like value ratio: 67.24%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.0, 0.0819672131147541, 0.0819672131147541, 0.0, 0.0, 0.0, 0.0409836065573771, 0.0, 0.0409836065573771, 0.0819672131147541]
+
+TEAM: Sonoma
+
+  ProdA_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 4.75409836065574
+    Negative differences: 51
+    Positive differences: 40
+    Zero differences: 24
+    Non-decreasing difference ratio: 55.65%
+    Integer-like value ratio: 31.90%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [3.11475409836066, 3.36065573770492, 3.07377049180328, 0.163934426229508, 0.0, 4.26229508196721, 2.78688524590164, 0.409836065573771, 2.82786885245902, 1.9672131147541]
+
+  ProdB_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 2.86885245901639
+    Negative differences: 26
+    Positive differences: 31
+    Zero differences: 58
+    Non-decreasing difference ratio: 77.39%
+    Integer-like value ratio: 63.79%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.122950819672131, 0.286885245901639, 0.368852459016393, 0.0, 0.0, 0.0, 0.0819672131147541, 0.0819672131147541, 0.0819672131147541, 2.86885245901639]
+
+TEAM: iGrow
+
+  ProdA_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 4.05737704918033
+    Negative differences: 50
+    Positive differences: 41
+    Zero differences: 24
+    Non-decreasing difference ratio: 56.52%
+    Integer-like value ratio: 32.76%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [2.29508196721312, 2.13114754098361, 2.66393442622951, 0.368852459016393, 0.0, 2.45901639344262, 2.74590163934426, 1.35245901639344, 2.33606557377049, 2.74590163934426]
+
+  ProdB_num
+    Number of valid values: 116
+    Minimum: 0.0
+    Maximum: 1.68032786885246
+    Negative differences: 35
+    Positive differences: 37
+    Zero differences: 43
+    Non-decreasing difference ratio: 69.57%
+    Integer-like value ratio: 53.45%
+    Heuristic: NON-CUMULATIVE / INTERVAL-LIKE behavior
+    WARNING: Values are mostly non-integer. Do not interpret them as literal fruit counts without further documentation.
+    First 10 values: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    Last 10 values:  [0.204918032786885, 0.122950819672131, 0.573770491803279, 0.286885245901639, 0.0, 0.0, 0.0819672131147541, 0.0, 0.122950819672131, 1.68032786885246]
+
+
+==========================================================================================
+8. SCHEMA DIFFERENCES BETWEEN TEAMS
+==========================================================================================
+
+FILE: CropManagement.csv
+  Teams containing file: 6
+  Union of columns: 6
+  Common columns: 6
+
+  AiCU: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Croperators: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  DeepGreens: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Reference(Growers): 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Sonoma: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  iGrow: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+FILE: Greenhouse_climate.csv
+  Teams containing file: 6
+  Union of columns: 12
+  Common columns: 12
+
+  AiCU: 12 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Croperators: 12 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  DeepGreens: 12 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Reference(Growers): 12 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Sonoma: 12 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  iGrow: 12 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+FILE: Irrigation.csv
+  Teams containing file: 6
+  Union of columns: 5
+  Common columns: 5
+
+  AiCU: 5 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Croperators: 5 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  DeepGreens: 5 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Reference(Growers): 5 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Sonoma: 5 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  iGrow: 5 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+FILE: Production.csv
+  Teams containing file: 6
+  Union of columns: 7
+  Common columns: 7
+
+  AiCU: 7 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Croperators: 7 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  DeepGreens: 7 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Reference(Growers): 7 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Sonoma: 7 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  iGrow: 7 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+FILE: ResourceCalculations.csv
+  Teams containing file: 6
+  Union of columns: 6
+  Common columns: 6
+
+  AiCU: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Croperators: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  DeepGreens: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Reference(Growers): 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  Sonoma: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+  iGrow: 6 columns
+    Missing relative to union: []
+    Unique relative to intersection: []
+
+FILE: vip.csv
+  Teams containing file: 6
+  Union of columns: 40
+  Common columns: 5
+
+  AiCU: 35 columns
+    Missing relative to union: ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+    Unique relative to intersection: ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+
+  Croperators: 10 columns
+    Missing relative to union: ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+    Unique relative to intersection: ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+
+  DeepGreens: 10 columns
+    Missing relative to union: ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+    Unique relative to intersection: ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+
+  Reference(Growers): 10 columns
+    Missing relative to union: ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+    Unique relative to intersection: ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+
+  Sonoma: 10 columns
+    Missing relative to union: ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+    Unique relative to intersection: ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+
+  iGrow: 10 columns
+    Missing relative to union: ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+    Unique relative to intersection: ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+
+  VIP SCHEMA COMPARISON
+    AiCU: 35 columns
+      ['CO2_Vip', 'HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'HumDef_Vip', 'MinPipeGrow_Vip', 'MinPipeLow_Vip', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6', 'time']
+    Croperators: 10 columns
+      ['CO2_Vip', 'HeatTemp_Vip', 'HumDef_Vip', 'MinPipeGrow_Vip', 'MinPipeLow_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip', 'time']
+    DeepGreens: 10 columns
+      ['CO2_Vip', 'HeatTemp_Vip', 'HumDef_Vip', 'MinPipeGrow_Vip', 'MinPipeLow_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip', 'time']
+    Reference(Growers): 10 columns
+      ['CO2_Vip', 'HeatTemp_Vip', 'HumDef_Vip', 'MinPipeGrow_Vip', 'MinPipeLow_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip', 'time']
+    Sonoma: 10 columns
+      ['CO2_Vip', 'HeatTemp_Vip', 'HumDef_Vip', 'MinPipeGrow_Vip', 'MinPipeLow_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip', 'time']
+    iGrow: 10 columns
+      ['time', 'CO2_Vip', 'HeatTemp_Vip', 'HumDef_Vip', 'MinPipeGrow_Vip', 'MinPipeLow_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']
+
+    AiCU-specific columns:
+      ['HeatTemp_Vip_1', 'HeatTemp_Vip_2', 'HeatTemp_Vip_3', 'HeatTemp_Vip_4', 'HeatTemp_Vip_5', 'HeatTemp_Vip_6', 'VentLeewMin_Vip_1', 'VentLeewMin_Vip_2', 'VentLeewMin_Vip_3', 'VentLeewMin_Vip_4', 'VentLeewMin_Vip_5', 'VentLeewMin_Vip_6', 'VentLeew_Vip_1', 'VentLeew_Vip_2', 'VentLeew_Vip_3', 'VentLeew_Vip_4', 'VentLeew_Vip_5', 'VentLeew_Vip_6', 'VentWind_Vip_1', 'VentWind_Vip_2', 'VentWind_Vip_3', 'VentWind_Vip_4', 'VentWind_Vip_5', 'VentWind_Vip_6', 'WaterSupInt_Vip_1', 'WaterSupInt_Vip_2', 'WaterSupInt_Vip_3', 'WaterSupInt_Vip_4', 'WaterSupInt_Vip_5', 'WaterSupInt_Vip_6']
+
+    Columns present in other teams but not AiCU:
+      ['HeatTemp_Vip', 'VentLeewMin_Vip', 'VentLeew_Vip', 'VentWind_Vip', 'WaterSupInt_Vip']

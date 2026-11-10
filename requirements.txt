@@ -1,0 +1,18 @@
+# Data processing
+pandas
+numpy
+scipy
+
+# Data formats
+openpyxl
+pyarrow
+
+# Visualization
+matplotlib
+seaborn
+
+# Research and experimentation
+jupyterlab
+ipykernel
+tqdm
+pyyaml
