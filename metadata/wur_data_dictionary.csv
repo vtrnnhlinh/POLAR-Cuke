@@ -1,0 +1,336 @@
+﻿scope,file,readme_variable,actual_column,description_from_readme,unit_from_readme,documented_frequency,dataset_type,data_collection,observed_rows,missing_cells,missing_percent,timestamp_column_in_file,semantic_status,notes
+Weather station,meteo.csv,Tout,Tout,outside temperature,°C,5 min,raw data,Weather station,33133,142,0.4286,time,matched,
+Weather station,meteo.csv,Rhout,Rhout,outside Relative Humidity,%,5 min,raw data,Weather station,33133,142,0.4286,time,matched,
+Weather station,meteo.csv,Iglob,Iglob,radiation,W/m2,5 min,raw data,Weather station,33133,141,0.4256,time,matched,
+Weather station,meteo.csv,Windsp,Windsp,wind speed,m/s,5 min,raw data,Weather station,33133,142,0.4286,time,matched,
+Weather station,meteo.csv,RadSum,RadSum,radiation sum,J/cm2,5 min,raw data,Weather station,33133,142,0.4286,time,matched,
+Weather station,meteo.csv,Winddir,Winddir,wind direction,0-360?,5 min,raw data,Weather station,33133,141,0.4256,time,matched,README unit is written as '0-360?'; verify the intended unit.
+Weather station,meteo.csv,Rain,Rain,"rain (status 1=rain, 0=dry)","1=rain, 0=dry",5 min,raw data,Weather station,33133,141,0.4256,time,matched,
+Weather station,meteo.csv,PARout,PARout,PAR weather measurement,µmol/m²/s,5 min,raw data,Weather station,33133,141,0.4256,time,matched,
+Weather station,meteo.csv,Pyrgeo,Pyrgeo,heat emission: pyrgeometer,W/m2,5 min,raw data,Weather station,33133,141,0.4256,time,matched,
+Weather station,meteo.csv,AbsHumOut,AbsHumOut,absolute humidity content outside air,g/m3,5 min,raw data,Weather station,33133,142,0.4286,time,matched,
+Weather station,meteo.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Weather station,33133,0,0.0,time,matched,Timestamp column.
+AiCU,Greenhouse_climate.csv,Tair,Tair,Air temperature greenhouse,°C,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,RHair,RHair,Relative humidity greenhouse,%,5 min,raw data,Measuring box,33133,143,0.4316,GHtime,matched,
+AiCU,Greenhouse_climate.csv,CO2air,CO2air,CO2 greenhouse,ppm,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,HumDef,HumDef,Humidity deficit,g/m3,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,VentLee,VentLee,Vent lee,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,Ventwind,Ventwind,Vent wind,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,AssimLight,AssimLight,Assimilation lighting,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,EnScr,EnScr,Energy curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,BlackScr,BlackScr,Black-out curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,PipeLow,PipeLow,Lower circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,PipeGrow,PipeGrow,Growth circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+AiCU,Greenhouse_climate.csv,GHtime,GHtime,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,GHtime,matched,Timestamp column.
+AiCU,Irrigation.csv,Water,water,Irrigation water supplied,L/m2,Daily,Processed,,116,1,0.8621,time,matched,README comment: 'Time between last and next irrigation turn'; wording is ambiguous.
+AiCU,Irrigation.csv,Drain,drain,Drainage water,L/m2,Daily,Processed,,116,1,0.8621,time,matched,
+AiCU,Irrigation.csv,pH_Drain,pH_Drain,pH of drainage water,[-],Daily,Processed,pH Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+AiCU,Irrigation.csv,EC_Drain,EC_Drain,EC of drainage water,dS/m,Daily,Processed,EC Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+AiCU,Irrigation.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+AiCU,vip.csv,CO2_VIP,CO2_Vip,CO2 setpoint,ppm,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+AiCU,vip.csv,HumDef_Vip,HumDef_Vip,humidity deficit setpoint,g/kg,5 min,raw data,Process computer,33133,141,0.4256,time,matched,Do not conflate with climate HumDef (g/m3).
+AiCU,vip.csv,MinPipeLow_Vip,MinPipeLow_Vip,net pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+AiCU,vip.csv,MinPipeGrow_Vip,MinPipeGrow_Vip,crop pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+AiCU,vip.csv,HeatTemp_VIP,,heating temperature setpoint,°C,5 min,raw data,Process computer,33133,,,time,not matched; check header spelling/schema,
+AiCU,vip.csv,VentLeew_VIP,,ventilation temperature lee side setpoint,°C,5 min,raw data,Process computer,33133,,,time,not matched; check header spelling/schema,
+AiCU,vip.csv,VentLeewMin_VIP,,lee side window position minimum setpoint,%,5 min,raw data,Process computer,33133,,,time,not matched; check header spelling/schema,
+AiCU,vip.csv,VentWind_VIP,,ventilation temperature wind side setpoint,°C,5 min,raw data,Process computer,33133,,,time,not matched; check header spelling/schema,
+AiCU,vip.csv,WaterSupInt_VIP,,water supply interval time setpoint,minutes,5 min,raw data,Process computer,33133,,,time,not matched; check header spelling/schema,
+AiCU,vip.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,time,matched,Timestamp column; AiCU indexed columns require separate index interpretation.
+AiCU,vip.csv,,HeatTemp_Vip_1,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,HeatTemp_Vip_2,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,HeatTemp_Vip_3,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,HeatTemp_Vip_4,,,,,,33133,33133,100.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,HeatTemp_Vip_5,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,HeatTemp_Vip_6,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeewMin_Vip_1,,,,,,33133,142,0.4286,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeewMin_Vip_2,,,,,,33133,142,0.4286,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeewMin_Vip_3,,,,,,33133,142,0.4286,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeewMin_Vip_4,,,,,,33133,142,0.4286,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeewMin_Vip_5,,,,,,33133,142,0.4286,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeewMin_Vip_6,,,,,,33133,142,0.4286,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeew_Vip_1,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeew_Vip_2,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeew_Vip_3,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeew_Vip_4,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeew_Vip_5,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentLeew_Vip_6,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentWind_Vip_1,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentWind_Vip_2,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentWind_Vip_3,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentWind_Vip_4,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentWind_Vip_5,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,VentWind_Vip_6,,,,,,33133,141,0.4256,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,WaterSupInt_Vip_1,,,,,,33133,580,1.7505,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,WaterSupInt_Vip_2,,,,,,33133,580,1.7505,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,WaterSupInt_Vip_3,,,,,,33133,580,1.7505,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,WaterSupInt_Vip_4,,,,,,33133,580,1.7505,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,WaterSupInt_Vip_5,,,,,,33133,580,1.7505,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,vip.csv,,WaterSupInt_Vip_6,,,,,,33133,580,1.7505,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,ResourceCalculations.csv,Heating _Eenrgy,Heating_Energy,Heating energy consumption (rail+ grow pipes),KWh/m2 day,Daily,Processed,,116,0,0.0,time,matched,README spelling retained; actual CSV header may differ.
+AiCU,ResourceCalculations.csv,Electricity _Lamps,,Electricity consumption (artificial light),KWh/m2 day,Daily,Processed,,116,,,time,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+AiCU,ResourceCalculations.csv,CO2_dosage,CO2_dosage,CO2 consumption,Kg/m2 day,Daily,Processed,,116,0,0.0,time,matched,README says derived from cumulative valve-open time and dosing capacity.
+AiCU,ResourceCalculations.csv,net_water,net_water,Water use (net of drainage),L/m2 day,Daily,Processed,,116,1,0.8621,time,matched,README defines as irrigation minus Drain.
+AiCU,ResourceCalculations.csv,Labour,Labour,Labour hours for crop management and harvest,hours/day,Daily,Processed,,116,0,0.0,time,matched,README describes a 0.42 correction factor for the small-scale greenhouse.
+AiCU,ResourceCalculations.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+AiCU,ResourceCalculations.csv,,Electricity_Lamp,,,,,,116,0,0.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+AiCU,Production.csv,Prod_value_cum,Prod_value_cum,Production value (fruit number multiplied by price),€,Daily,Processed,Manual registration,116,0,0.0,time,matched,
+AiCU,Production.csv,ProdA_cum,ProdA_cum,Cumulative Production cucumber category A,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+AiCU,Production.csv,ProdB_cum,ProdB_cum,Cumulative Production cucumber category B,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+AiCU,Production.csv,ProdA_num,ProdA_num,Cumulative number of cucumber category A,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+AiCU,Production.csv,ProdB_num,ProdB_num,Cumulative number of cucumber category B,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+AiCU,Production.csv,Total_Prod_cum,Total_Prod_cum,Total cumulative production,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,README says sum of class A and class B; audit confirms equality.
+AiCU,Production.csv,time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+AiCU,CropManagement.csv,Fruit maintained,,% of fruit mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+AiCU,CropManagement.csv,Leaves mainatained,,% of leaves mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+AiCU,CropManagement.csv,Stem_Elong,Stem_elong,stem-elongation,cm/week,week,raw,Manual registration,16,0,0.0,weeks,matched,
+AiCU,CropManagement.csv,FruitGrw,FruitGrw,fruit development time,days/fruit,week,raw,Manual registration,16,2,12.5,weeks,matched,
+AiCU,CropManagement.csv,LeafFormRate,LeafFormRate,Leaf formation rate,n_leaves/stem week,week,raw,Manual registration,16,1,6.25,weeks,matched,
+AiCU,CropManagement.csv,N_leaves,N_leaves,Cumulative number of leaves,n_leaves/stem,week,raw,Manual registration,16,0,0.0,weeks,matched,
+AiCU,CropManagement.csv,Weeks,weeks,Timestamp week number (year 2018),,week,raw,,16,0,0.0,weeks,matched,Weekly time identifier.
+AiCU,CropManagement.csv,,Pruning,,,,,,16,1,6.25,weeks,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+Croperators,Greenhouse_climate.csv,Tair,Tair,Air temperature greenhouse,°C,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,RHair,RHair,Relative humidity greenhouse,%,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,CO2air,CO2air,CO2 greenhouse,ppm,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,HumDef,HumDef,Humidity deficit,g/m3,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,VentLee,VentLee,Vent lee,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,Ventwind,Ventwind,Vent wind,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,AssimLight,AssimLight,Assimilation lighting,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,EnScr,EnScr,Energy curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,BlackScr,BlackScr,Black-out curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,PipeLow,PipeLow,Lower circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,PipeGrow,PipeGrow,Growth circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Croperators,Greenhouse_climate.csv,GHtime,GHtime,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,GHtime,matched,Timestamp column.
+Croperators,Irrigation.csv,Water,water,Irrigation water supplied,L/m2,Daily,Processed,,116,1,0.8621,time,matched,README comment: 'Time between last and next irrigation turn'; wording is ambiguous.
+Croperators,Irrigation.csv,Drain,drain,Drainage water,L/m2,Daily,Processed,,116,1,0.8621,time,matched,
+Croperators,Irrigation.csv,pH_Drain,pH_Drain,pH of drainage water,[-],Daily,Processed,pH Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+Croperators,Irrigation.csv,EC_Drain,EC_Drain,EC of drainage water,dS/m,Daily,Processed,EC Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+Croperators,Irrigation.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Croperators,vip.csv,CO2_VIP,CO2_Vip,CO2 setpoint,ppm,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+Croperators,vip.csv,HumDef_Vip,HumDef_Vip,humidity deficit setpoint,g/kg,5 min,raw data,Process computer,33133,141,0.4256,time,matched,Do not conflate with climate HumDef (g/m3).
+Croperators,vip.csv,MinPipeLow_Vip,MinPipeLow_Vip,net pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Croperators,vip.csv,MinPipeGrow_Vip,MinPipeGrow_Vip,crop pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Croperators,vip.csv,HeatTemp_VIP,HeatTemp_Vip,heating temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Croperators,vip.csv,VentLeew_VIP,VentLeew_Vip,ventilation temperature lee side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Croperators,vip.csv,VentLeewMin_VIP,VentLeewMin_Vip,lee side window position minimum setpoint,%,5 min,raw data,Process computer,33133,142,0.4286,time,matched,
+Croperators,vip.csv,VentWind_VIP,VentWind_Vip,ventilation temperature wind side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Croperators,vip.csv,WaterSupInt_VIP,WaterSupInt_Vip,water supply interval time setpoint,minutes,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+Croperators,vip.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,time,matched,Timestamp column; AiCU indexed columns require separate index interpretation.
+Croperators,ResourceCalculations.csv,Heating _Eenrgy,Heating_Energy,Heating energy consumption (rail+ grow pipes),KWh/m2 day,Daily,Processed,,116,0,0.0,time,matched,README spelling retained; actual CSV header may differ.
+Croperators,ResourceCalculations.csv,Electricity _Lamps,,Electricity consumption (artificial light),KWh/m2 day,Daily,Processed,,116,,,time,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Croperators,ResourceCalculations.csv,CO2_dosage,CO2_dosage,CO2 consumption,Kg/m2 day,Daily,Processed,,116,0,0.0,time,matched,README says derived from cumulative valve-open time and dosing capacity.
+Croperators,ResourceCalculations.csv,net_water,net_water,Water use (net of drainage),L/m2 day,Daily,Processed,,116,1,0.8621,time,matched,README defines as irrigation minus Drain.
+Croperators,ResourceCalculations.csv,Labour,Labour,Labour hours for crop management and harvest,hours/day,Daily,Processed,,116,0,0.0,time,matched,README describes a 0.42 correction factor for the small-scale greenhouse.
+Croperators,ResourceCalculations.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Croperators,ResourceCalculations.csv,,Electricity_Lamp,,,,,,116,0,0.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+Croperators,Production.csv,Prod_value_cum,Prod_value_cum,Production value (fruit number multiplied by price),€,Daily,Processed,Manual registration,116,0,0.0,time,matched,
+Croperators,Production.csv,ProdA_cum,ProdA_cum,Cumulative Production cucumber category A,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+Croperators,Production.csv,ProdB_cum,ProdB_cum,Cumulative Production cucumber category B,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+Croperators,Production.csv,ProdA_num,ProdA_num,Cumulative number of cucumber category A,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+Croperators,Production.csv,ProdB_num,ProdB_num,Cumulative number of cucumber category B,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+Croperators,Production.csv,Total_Prod_cum,Total_Prod_cum,Total cumulative production,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,README says sum of class A and class B; audit confirms equality.
+Croperators,Production.csv,time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Croperators,CropManagement.csv,Fruit maintained,,% of fruit mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Croperators,CropManagement.csv,Leaves mainatained,,% of leaves mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Croperators,CropManagement.csv,Stem_Elong,Stem_elong,stem-elongation,cm/week,week,raw,Manual registration,16,0,0.0,weeks,matched,
+Croperators,CropManagement.csv,FruitGrw,FruitGrw,fruit development time,days/fruit,week,raw,Manual registration,16,2,12.5,weeks,matched,
+Croperators,CropManagement.csv,LeafFormRate,LeafFormRate,Leaf formation rate,n_leaves/stem week,week,raw,Manual registration,16,1,6.25,weeks,matched,
+Croperators,CropManagement.csv,N_leaves,N_leaves,Cumulative number of leaves,n_leaves/stem,week,raw,Manual registration,16,0,0.0,weeks,matched,
+Croperators,CropManagement.csv,Weeks,weeks,Timestamp week number (year 2018),,week,raw,,16,0,0.0,weeks,matched,Weekly time identifier.
+Croperators,CropManagement.csv,,Pruning,,,,,,16,1,6.25,weeks,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+DeepGreens,Greenhouse_climate.csv,Tair,Tair,Air temperature greenhouse,°C,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,RHair,RHair,Relative humidity greenhouse,%,5 min,raw data,Measuring box,33133,143,0.4316,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,CO2air,CO2air,CO2 greenhouse,ppm,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,HumDef,HumDef,Humidity deficit,g/m3,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,VentLee,VentLee,Vent lee,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,Ventwind,Ventwind,Vent wind,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,AssimLight,AssimLight,Assimilation lighting,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,EnScr,EnScr,Energy curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,BlackScr,BlackScr,Black-out curtain,% (0-100),5 min,raw data,Process computer,33133,33133,100.0,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,PipeLow,PipeLow,Lower circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,PipeGrow,PipeGrow,Growth circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+DeepGreens,Greenhouse_climate.csv,GHtime,GHtime,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,GHtime,matched,Timestamp column.
+DeepGreens,Irrigation.csv,Water,water,Irrigation water supplied,L/m2,Daily,Processed,,116,1,0.8621,time,matched,README comment: 'Time between last and next irrigation turn'; wording is ambiguous.
+DeepGreens,Irrigation.csv,Drain,drain,Drainage water,L/m2,Daily,Processed,,116,1,0.8621,time,matched,
+DeepGreens,Irrigation.csv,pH_Drain,pH_Drain,pH of drainage water,[-],Daily,Processed,pH Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+DeepGreens,Irrigation.csv,EC_Drain,EC_Drain,EC of drainage water,dS/m,Daily,Processed,EC Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+DeepGreens,Irrigation.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+DeepGreens,vip.csv,CO2_VIP,CO2_Vip,CO2 setpoint,ppm,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+DeepGreens,vip.csv,HumDef_Vip,HumDef_Vip,humidity deficit setpoint,g/kg,5 min,raw data,Process computer,33133,141,0.4256,time,matched,Do not conflate with climate HumDef (g/m3).
+DeepGreens,vip.csv,MinPipeLow_Vip,MinPipeLow_Vip,net pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+DeepGreens,vip.csv,MinPipeGrow_Vip,MinPipeGrow_Vip,crop pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+DeepGreens,vip.csv,HeatTemp_VIP,HeatTemp_Vip,heating temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+DeepGreens,vip.csv,VentLeew_VIP,VentLeew_Vip,ventilation temperature lee side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+DeepGreens,vip.csv,VentLeewMin_VIP,VentLeewMin_Vip,lee side window position minimum setpoint,%,5 min,raw data,Process computer,33133,142,0.4286,time,matched,
+DeepGreens,vip.csv,VentWind_VIP,VentWind_Vip,ventilation temperature wind side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+DeepGreens,vip.csv,WaterSupInt_VIP,WaterSupInt_Vip,water supply interval time setpoint,minutes,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+DeepGreens,vip.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,time,matched,Timestamp column; AiCU indexed columns require separate index interpretation.
+DeepGreens,ResourceCalculations.csv,Heating _Eenrgy,Heating_Energy,Heating energy consumption (rail+ grow pipes),KWh/m2 day,Daily,Processed,,116,0,0.0,time,matched,README spelling retained; actual CSV header may differ.
+DeepGreens,ResourceCalculations.csv,Electricity _Lamps,,Electricity consumption (artificial light),KWh/m2 day,Daily,Processed,,116,,,time,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+DeepGreens,ResourceCalculations.csv,CO2_dosage,CO2_dosage,CO2 consumption,Kg/m2 day,Daily,Processed,,116,0,0.0,time,matched,README says derived from cumulative valve-open time and dosing capacity.
+DeepGreens,ResourceCalculations.csv,net_water,net_water,Water use (net of drainage),L/m2 day,Daily,Processed,,116,1,0.8621,time,matched,README defines as irrigation minus Drain.
+DeepGreens,ResourceCalculations.csv,Labour,Labour,Labour hours for crop management and harvest,hours/day,Daily,Processed,,116,0,0.0,time,matched,README describes a 0.42 correction factor for the small-scale greenhouse.
+DeepGreens,ResourceCalculations.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+DeepGreens,ResourceCalculations.csv,,Electricity_Lamp,,,,,,116,0,0.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+DeepGreens,Production.csv,Prod_value_cum,Prod_value_cum,Production value (fruit number multiplied by price),€,Daily,Processed,Manual registration,116,0,0.0,time,matched,
+DeepGreens,Production.csv,ProdA_cum,ProdA_cum,Cumulative Production cucumber category A,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+DeepGreens,Production.csv,ProdB_cum,ProdB_cum,Cumulative Production cucumber category B,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+DeepGreens,Production.csv,ProdA_num,ProdA_num,Cumulative number of cucumber category A,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+DeepGreens,Production.csv,ProdB_num,ProdB_num,Cumulative number of cucumber category B,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+DeepGreens,Production.csv,Total_Prod_cum,Total_Prod_cum,Total cumulative production,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,README says sum of class A and class B; audit confirms equality.
+DeepGreens,Production.csv,time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+DeepGreens,CropManagement.csv,Fruit maintained,,% of fruit mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+DeepGreens,CropManagement.csv,Leaves mainatained,,% of leaves mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+DeepGreens,CropManagement.csv,Stem_Elong,Stem_elong,stem-elongation,cm/week,week,raw,Manual registration,16,0,0.0,weeks,matched,
+DeepGreens,CropManagement.csv,FruitGrw,FruitGrw,fruit development time,days/fruit,week,raw,Manual registration,16,2,12.5,weeks,matched,
+DeepGreens,CropManagement.csv,LeafFormRate,LeafFormRate,Leaf formation rate,n_leaves/stem week,week,raw,Manual registration,16,1,6.25,weeks,matched,
+DeepGreens,CropManagement.csv,N_leaves,N_leaves,Cumulative number of leaves,n_leaves/stem,week,raw,Manual registration,16,0,0.0,weeks,matched,
+DeepGreens,CropManagement.csv,Weeks,weeks,Timestamp week number (year 2018),,week,raw,,16,0,0.0,weeks,matched,Weekly time identifier.
+DeepGreens,CropManagement.csv,,Pruning,,,,,,16,1,6.25,weeks,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+Reference(Growers),Greenhouse_climate.csv,Tair,Tair,Air temperature greenhouse,°C,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,RHair,RHair,Relative humidity greenhouse,%,5 min,raw data,Measuring box,33133,143,0.4316,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,CO2air,CO2air,CO2 greenhouse,ppm,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,HumDef,HumDef,Humidity deficit,g/m3,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,VentLee,VentLee,Vent lee,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,Ventwind,Ventwind,Vent wind,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,AssimLight,AssimLight,Assimilation lighting,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,EnScr,EnScr,Energy curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,BlackScr,BlackScr,Black-out curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,PipeLow,PipeLow,Lower circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,PipeGrow,PipeGrow,Growth circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Reference(Growers),Greenhouse_climate.csv,GHtime,GHtime,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,GHtime,matched,Timestamp column.
+Reference(Growers),Irrigation.csv,Water,water,Irrigation water supplied,L/m2,Daily,Processed,,116,1,0.8621,time,matched,README comment: 'Time between last and next irrigation turn'; wording is ambiguous.
+Reference(Growers),Irrigation.csv,Drain,drain,Drainage water,L/m2,Daily,Processed,,116,1,0.8621,time,matched,
+Reference(Growers),Irrigation.csv,pH_Drain,pH_Drain,pH of drainage water,[-],Daily,Processed,pH Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+Reference(Growers),Irrigation.csv,EC_Drain,EC_Drain,EC of drainage water,dS/m,Daily,Processed,EC Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+Reference(Growers),Irrigation.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Reference(Growers),vip.csv,CO2_VIP,CO2_Vip,CO2 setpoint,ppm,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+Reference(Growers),vip.csv,HumDef_Vip,HumDef_Vip,humidity deficit setpoint,g/kg,5 min,raw data,Process computer,33133,141,0.4256,time,matched,Do not conflate with climate HumDef (g/m3).
+Reference(Growers),vip.csv,MinPipeLow_Vip,MinPipeLow_Vip,net pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Reference(Growers),vip.csv,MinPipeGrow_Vip,MinPipeGrow_Vip,crop pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Reference(Growers),vip.csv,HeatTemp_VIP,HeatTemp_Vip,heating temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Reference(Growers),vip.csv,VentLeew_VIP,VentLeew_Vip,ventilation temperature lee side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Reference(Growers),vip.csv,VentLeewMin_VIP,VentLeewMin_Vip,lee side window position minimum setpoint,%,5 min,raw data,Process computer,33133,142,0.4286,time,matched,
+Reference(Growers),vip.csv,VentWind_VIP,VentWind_Vip,ventilation temperature wind side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Reference(Growers),vip.csv,WaterSupInt_VIP,WaterSupInt_Vip,water supply interval time setpoint,minutes,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+Reference(Growers),vip.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,time,matched,Timestamp column; AiCU indexed columns require separate index interpretation.
+Reference(Growers),ResourceCalculations.csv,Heating _Eenrgy,Heating_Energy,Heating energy consumption (rail+ grow pipes),KWh/m2 day,Daily,Processed,,116,0,0.0,time,matched,README spelling retained; actual CSV header may differ.
+Reference(Growers),ResourceCalculations.csv,Electricity _Lamps,,Electricity consumption (artificial light),KWh/m2 day,Daily,Processed,,116,,,time,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Reference(Growers),ResourceCalculations.csv,CO2_dosage,CO2_dosage,CO2 consumption,Kg/m2 day,Daily,Processed,,116,0,0.0,time,matched,README says derived from cumulative valve-open time and dosing capacity.
+Reference(Growers),ResourceCalculations.csv,net_water,net_water,Water use (net of drainage),L/m2 day,Daily,Processed,,116,1,0.8621,time,matched,README defines as irrigation minus Drain.
+Reference(Growers),ResourceCalculations.csv,Labour,Labour,Labour hours for crop management and harvest,hours/day,Daily,Processed,,116,0,0.0,time,matched,README describes a 0.42 correction factor for the small-scale greenhouse.
+Reference(Growers),ResourceCalculations.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Reference(Growers),ResourceCalculations.csv,,Electricity_Lamp,,,,,,116,0,0.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+Reference(Growers),Production.csv,Prod_value_cum,Prod_value_cum,Production value (fruit number multiplied by price),€,Daily,Processed,Manual registration,116,0,0.0,time,matched,
+Reference(Growers),Production.csv,ProdA_cum,ProdA_cum,Cumulative Production cucumber category A,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+Reference(Growers),Production.csv,ProdB_cum,ProdB_cum,Cumulative Production cucumber category B,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+Reference(Growers),Production.csv,ProdA_num,ProdA_num,Cumulative number of cucumber category A,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+Reference(Growers),Production.csv,ProdB_num,ProdB_num,Cumulative number of cucumber category B,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+Reference(Growers),Production.csv,Total_Prod_cum,Total_Prod_cum,Total cumulative production,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,README says sum of class A and class B; audit confirms equality.
+Reference(Growers),Production.csv,time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Reference(Growers),CropManagement.csv,Fruit maintained,,% of fruit mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Reference(Growers),CropManagement.csv,Leaves mainatained,,% of leaves mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Reference(Growers),CropManagement.csv,Stem_Elong,Stem_elong,stem-elongation,cm/week,week,raw,Manual registration,16,3,18.75,weeks,matched,
+Reference(Growers),CropManagement.csv,FruitGrw,FruitGrw,fruit development time,days/fruit,week,raw,Manual registration,16,2,12.5,weeks,matched,
+Reference(Growers),CropManagement.csv,LeafFormRate,LeafFormRate,Leaf formation rate,n_leaves/stem week,week,raw,Manual registration,16,3,18.75,weeks,matched,
+Reference(Growers),CropManagement.csv,N_leaves,N_leaves,Cumulative number of leaves,n_leaves/stem,week,raw,Manual registration,16,3,18.75,weeks,matched,
+Reference(Growers),CropManagement.csv,Weeks,weeks,Timestamp week number (year 2018),,week,raw,,16,0,0.0,weeks,matched,Weekly time identifier.
+Reference(Growers),CropManagement.csv,,Pruning,,,,,,16,1,6.25,weeks,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+Sonoma,Greenhouse_climate.csv,Tair,Tair,Air temperature greenhouse,°C,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,RHair,RHair,Relative humidity greenhouse,%,5 min,raw data,Measuring box,33133,143,0.4316,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,CO2air,CO2air,CO2 greenhouse,ppm,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,HumDef,HumDef,Humidity deficit,g/m3,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,VentLee,VentLee,Vent lee,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,Ventwind,Ventwind,Vent wind,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,AssimLight,AssimLight,Assimilation lighting,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,EnScr,EnScr,Energy curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,BlackScr,BlackScr,Black-out curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,PipeLow,PipeLow,Lower circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,PipeGrow,PipeGrow,Growth circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+Sonoma,Greenhouse_climate.csv,GHtime,GHtime,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,GHtime,matched,Timestamp column.
+Sonoma,Irrigation.csv,Water,water,Irrigation water supplied,L/m2,Daily,Processed,,116,1,0.8621,time,matched,README comment: 'Time between last and next irrigation turn'; wording is ambiguous.
+Sonoma,Irrigation.csv,Drain,drain,Drainage water,L/m2,Daily,Processed,,116,1,0.8621,time,matched,
+Sonoma,Irrigation.csv,pH_Drain,pH_Drain,pH of drainage water,[-],Daily,Processed,pH Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+Sonoma,Irrigation.csv,EC_Drain,EC_Drain,EC of drainage water,dS/m,Daily,Processed,EC Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+Sonoma,Irrigation.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Sonoma,vip.csv,CO2_VIP,CO2_Vip,CO2 setpoint,ppm,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+Sonoma,vip.csv,HumDef_Vip,HumDef_Vip,humidity deficit setpoint,g/kg,5 min,raw data,Process computer,33133,141,0.4256,time,matched,Do not conflate with climate HumDef (g/m3).
+Sonoma,vip.csv,MinPipeLow_Vip,MinPipeLow_Vip,net pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Sonoma,vip.csv,MinPipeGrow_Vip,MinPipeGrow_Vip,crop pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Sonoma,vip.csv,HeatTemp_VIP,HeatTemp_Vip,heating temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Sonoma,vip.csv,VentLeew_VIP,VentLeew_Vip,ventilation temperature lee side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Sonoma,vip.csv,VentLeewMin_VIP,VentLeewMin_Vip,lee side window position minimum setpoint,%,5 min,raw data,Process computer,33133,142,0.4286,time,matched,
+Sonoma,vip.csv,VentWind_VIP,VentWind_Vip,ventilation temperature wind side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+Sonoma,vip.csv,WaterSupInt_VIP,WaterSupInt_Vip,water supply interval time setpoint,minutes,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+Sonoma,vip.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,time,matched,Timestamp column; AiCU indexed columns require separate index interpretation.
+Sonoma,ResourceCalculations.csv,Heating _Eenrgy,Heating_Energy,Heating energy consumption (rail+ grow pipes),KWh/m2 day,Daily,Processed,,116,0,0.0,time,matched,README spelling retained; actual CSV header may differ.
+Sonoma,ResourceCalculations.csv,Electricity _Lamps,,Electricity consumption (artificial light),KWh/m2 day,Daily,Processed,,116,,,time,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Sonoma,ResourceCalculations.csv,CO2_dosage,CO2_dosage,CO2 consumption,Kg/m2 day,Daily,Processed,,116,0,0.0,time,matched,README says derived from cumulative valve-open time and dosing capacity.
+Sonoma,ResourceCalculations.csv,net_water,net_water,Water use (net of drainage),L/m2 day,Daily,Processed,,116,1,0.8621,time,matched,README defines as irrigation minus Drain.
+Sonoma,ResourceCalculations.csv,Labour,Labour,Labour hours for crop management and harvest,hours/day,Daily,Processed,,116,0,0.0,time,matched,README describes a 0.42 correction factor for the small-scale greenhouse.
+Sonoma,ResourceCalculations.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Sonoma,ResourceCalculations.csv,,Electricity_Lamp,,,,,,116,0,0.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+Sonoma,Production.csv,Prod_value_cum,Prod_value_cum,Production value (fruit number multiplied by price),€,Daily,Processed,Manual registration,116,0,0.0,time,matched,
+Sonoma,Production.csv,ProdA_cum,ProdA_cum,Cumulative Production cucumber category A,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+Sonoma,Production.csv,ProdB_cum,ProdB_cum,Cumulative Production cucumber category B,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+Sonoma,Production.csv,ProdA_num,ProdA_num,Cumulative number of cucumber category A,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+Sonoma,Production.csv,ProdB_num,ProdB_num,Cumulative number of cucumber category B,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+Sonoma,Production.csv,Total_Prod_cum,Total_Prod_cum,Total cumulative production,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,README says sum of class A and class B; audit confirms equality.
+Sonoma,Production.csv,time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+Sonoma,CropManagement.csv,Fruit maintained,,% of fruit mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Sonoma,CropManagement.csv,Leaves mainatained,,% of leaves mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+Sonoma,CropManagement.csv,Stem_Elong,Stem_elong,stem-elongation,cm/week,week,raw,Manual registration,16,0,0.0,weeks,matched,
+Sonoma,CropManagement.csv,FruitGrw,FruitGrw,fruit development time,days/fruit,week,raw,Manual registration,16,2,12.5,weeks,matched,
+Sonoma,CropManagement.csv,LeafFormRate,LeafFormRate,Leaf formation rate,n_leaves/stem week,week,raw,Manual registration,16,1,6.25,weeks,matched,
+Sonoma,CropManagement.csv,N_leaves,N_leaves,Cumulative number of leaves,n_leaves/stem,week,raw,Manual registration,16,0,0.0,weeks,matched,
+Sonoma,CropManagement.csv,Weeks,weeks,Timestamp week number (year 2018),,week,raw,,16,0,0.0,weeks,matched,Weekly time identifier.
+Sonoma,CropManagement.csv,,Pruning,,,,,,16,1,6.25,weeks,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+iGrow,Greenhouse_climate.csv,Tair,Tair,Air temperature greenhouse,°C,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,RHair,RHair,Relative humidity greenhouse,%,5 min,raw data,Measuring box,33133,143,0.4316,GHtime,matched,
+iGrow,Greenhouse_climate.csv,CO2air,CO2air,CO2 greenhouse,ppm,5 min,raw data,Measuring box,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,HumDef,HumDef,Humidity deficit,g/m3,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,VentLee,VentLee,Vent lee,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,Ventwind,Ventwind,Vent wind,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,AssimLight,AssimLight,Assimilation lighting,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,EnScr,EnScr,Energy curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,BlackScr,BlackScr,Black-out curtain,% (0-100),5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,PipeLow,PipeLow,Lower circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,PipeGrow,PipeGrow,Growth circuit Temperature,°C,5 min,raw data,Process computer,33133,142,0.4286,GHtime,matched,
+iGrow,Greenhouse_climate.csv,GHtime,GHtime,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,GHtime,matched,Timestamp column.
+iGrow,Irrigation.csv,Water,water,Irrigation water supplied,L/m2,Daily,Processed,,116,1,0.8621,time,matched,README comment: 'Time between last and next irrigation turn'; wording is ambiguous.
+iGrow,Irrigation.csv,Drain,drain,Drainage water,L/m2,Daily,Processed,,116,1,0.8621,time,matched,
+iGrow,Irrigation.csv,pH_Drain,pH_Drain,pH of drainage water,[-],Daily,Processed,pH Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+iGrow,Irrigation.csv,EC_Drain,EC_Drain,EC of drainage water,dS/m,Daily,Processed,EC Probes,116,0,0.0,time,matched,README says daily averages on 5-minute data.
+iGrow,Irrigation.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+iGrow,vip.csv,CO2_VIP,CO2_Vip,CO2 setpoint,ppm,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+iGrow,vip.csv,HumDef_Vip,HumDef_Vip,humidity deficit setpoint,g/kg,5 min,raw data,Process computer,33133,141,0.4256,time,matched,Do not conflate with climate HumDef (g/m3).
+iGrow,vip.csv,MinPipeLow_Vip,MinPipeLow_Vip,net pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+iGrow,vip.csv,MinPipeGrow_Vip,MinPipeGrow_Vip,crop pipe minimum temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+iGrow,vip.csv,HeatTemp_VIP,HeatTemp_Vip,heating temperature setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+iGrow,vip.csv,VentLeew_VIP,VentLeew_Vip,ventilation temperature lee side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+iGrow,vip.csv,VentLeewMin_VIP,VentLeewMin_Vip,lee side window position minimum setpoint,%,5 min,raw data,Process computer,33133,142,0.4286,time,matched,
+iGrow,vip.csv,VentWind_VIP,VentWind_Vip,ventilation temperature wind side setpoint,°C,5 min,raw data,Process computer,33133,141,0.4256,time,matched,
+iGrow,vip.csv,WaterSupInt_VIP,WaterSupInt_Vip,water supply interval time setpoint,minutes,5 min,raw data,Process computer,33133,580,1.7505,time,matched,
+iGrow,vip.csv,Time,time,Timestamp 5 minute (Excel format),,5 min,raw data,Process computer,33133,0,0.0,time,matched,Timestamp column; AiCU indexed columns require separate index interpretation.
+iGrow,ResourceCalculations.csv,Heating _Eenrgy,Heating_Energy,Heating energy consumption (rail+ grow pipes),KWh/m2 day,Daily,Processed,,116,0,0.0,time,matched,README spelling retained; actual CSV header may differ.
+iGrow,ResourceCalculations.csv,Electricity _Lamps,,Electricity consumption (artificial light),KWh/m2 day,Daily,Processed,,116,,,time,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+iGrow,ResourceCalculations.csv,CO2_dosage,CO2_dosage,CO2 consumption,Kg/m2 day,Daily,Processed,,116,0,0.0,time,matched,README says derived from cumulative valve-open time and dosing capacity.
+iGrow,ResourceCalculations.csv,net_water,net_water,Water use (net of drainage),L/m2 day,Daily,Processed,,116,1,0.8621,time,matched,README defines as irrigation minus Drain.
+iGrow,ResourceCalculations.csv,Labour,Labour,Labour hours for crop management and harvest,hours/day,Daily,Processed,,116,0,0.0,time,matched,README describes a 0.42 correction factor for the small-scale greenhouse.
+iGrow,ResourceCalculations.csv,Time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+iGrow,ResourceCalculations.csv,,Electricity_Lamp,,,,,,116,0,0.0,time,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.
+iGrow,Production.csv,Prod_value_cum,Prod_value_cum,Production value (fruit number multiplied by price),€,Daily,Processed,Manual registration,116,0,0.0,time,matched,
+iGrow,Production.csv,ProdA_cum,ProdA_cum,Cumulative Production cucumber category A,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+iGrow,Production.csv,ProdB_cum,ProdB_cum,Cumulative Production cucumber category B,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,Strong candidate target; cumulative mass.
+iGrow,Production.csv,ProdA_num,ProdA_num,Cumulative number of cucumber category A,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+iGrow,Production.csv,ProdB_num,ProdB_num,Cumulative number of cucumber category B,number of fruits,Daily,Processed,Manual registration,116,0,0.0,time,matched,Audit observed fractional values and decreases; conflicts with documented cumulative-count behavior.
+iGrow,Production.csv,Total_Prod_cum,Total_Prod_cum,Total cumulative production,Kg/m2,Daily,Processed,Manual registration,116,0,0.0,time,matched,README says sum of class A and class B; audit confirms equality.
+iGrow,Production.csv,time,time,Timestamp 1 day (Excel format),,Daily,Processed,,116,0,0.0,time,matched,Timestamp column.
+iGrow,CropManagement.csv,Fruit maintained,,% of fruit mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+iGrow,CropManagement.csv,Leaves mainatained,,% of leaves mainatained on internode,%,week,raw,Manual registration,16,,,weeks,not matched; check header spelling/schema,README spelling retained; actual CSV header may differ.
+iGrow,CropManagement.csv,Stem_Elong,Stem_elong,stem-elongation,cm/week,week,raw,Manual registration,16,0,0.0,weeks,matched,
+iGrow,CropManagement.csv,FruitGrw,FruitGrw,fruit development time,days/fruit,week,raw,Manual registration,16,2,12.5,weeks,matched,
+iGrow,CropManagement.csv,LeafFormRate,LeafFormRate,Leaf formation rate,n_leaves/stem week,week,raw,Manual registration,16,1,6.25,weeks,matched,
+iGrow,CropManagement.csv,N_leaves,N_leaves,Cumulative number of leaves,n_leaves/stem,week,raw,Manual registration,16,0,0.0,weeks,matched,
+iGrow,CropManagement.csv,Weeks,weeks,Timestamp week number (year 2018),,week,raw,,16,0,0.0,weeks,matched,Weekly time identifier.
+iGrow,CropManagement.csv,,Pruning,,,,,,16,1,6.25,weeks,present in CSV; no exact README dictionary entry,Requires manual semantic mapping.

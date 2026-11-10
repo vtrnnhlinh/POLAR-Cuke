@@ -1,0 +1,51 @@
+WUR AUTONOMOUS GREENHOUSE CHALLENGE 2018
+Original extracted dataset structure
+========================================
+
+Root: data/raw/wur/
+
+d 
+d AiCU
+d Croperators
+d DeepGreens
+d iGrow
+d Reference(Growers)
+d Sonoma
+f AiCU/CropManagement.csv
+f AiCU/Greenhouse_climate.csv
+f AiCU/Irrigation.csv
+f AiCU/Production.csv
+f AiCU/ResourceCalculations.csv
+f AiCU/vip.csv
+f Croperators/CropManagement.csv
+f Croperators/Greenhouse_climate.csv
+f Croperators/Irrigation.csv
+f Croperators/Production.csv
+f Croperators/ResourceCalculations.csv
+f Croperators/vip.csv
+f DeepGreens/CropManagement.csv
+f DeepGreens/Greenhouse_climate.csv
+f DeepGreens/Irrigation.csv
+f DeepGreens/Production.csv
+f DeepGreens/ResourceCalculations.csv
+f DeepGreens/vip.csv
+f iGrow/CropManagement.csv
+f iGrow/Greenhouse_climate.csv
+f iGrow/Irrigation.csv
+f iGrow/Production.csv
+f iGrow/ResourceCalculations.csv
+f iGrow/vip.csv
+f meteo.csv
+f ReadMe.pdf
+f Reference(Growers)/CropManagement.csv
+f Reference(Growers)/Greenhouse_climate.csv
+f Reference(Growers)/Irrigation.csv
+f Reference(Growers)/Production.csv
+f Reference(Growers)/ResourceCalculations.csv
+f Reference(Growers)/vip.csv
+f Sonoma/CropManagement.csv
+f Sonoma/Greenhouse_climate.csv
+f Sonoma/Irrigation.csv
+f Sonoma/Production.csv
+f Sonoma/ResourceCalculations.csv
+f Sonoma/vip.csv

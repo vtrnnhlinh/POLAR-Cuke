@@ -1,0 +1,27 @@
+cat > reports/data_audit/wur_inventory.txt <<'EOF'
+WUR AUTONOMOUS GREENHOUSE CHALLENGE 2018
+Dataset Inventory
+========================================
+
+Root: data/raw/wur/
+
+Directories: 6
+Files: 38
+Total size: 41,625,275 bytes
+
+File extensions:
+- CSV: 37
+- PDF: 1
+
+Team directories:
+- AiCU: 6 files
+- Croperators: 6 files
+- DeepGreens: 6 files
+- Reference(Growers): 6 files
+- Sonoma: 6 files
+- iGrow: 6 files
+
+Root-level files:
+- meteo.csv
+- ReadMe.pdf
+EOF

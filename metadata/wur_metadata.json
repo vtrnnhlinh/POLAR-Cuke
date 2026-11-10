@@ -1,0 +1,100 @@
+{
+  "dataset": {
+    "title": "Autonomous Greenhouse Challenge, First Edition (2018)",
+    "publisher": "Wageningen University & Research",
+    "doi": "10.4121/uuid:e4987a7b-04dd-4c89-9b18-883aad30ba9a",
+    "doi_url": "https://doi.org/10.4121/uuid:e4987a7b-04dd-4c89-9b18-883aad30ba9a",
+    "source_url": "https://research.wur.nl/en/datasets/autonomous-greenhouse-challenge-first-edition-2018/",
+    "date_made_available": "2019-03-29",
+    "temporal_coverage": {
+      "start": "2018-08",
+      "end": "2018-12"
+    },
+    "crop": "Cucumber",
+    "cultivar": "Hi Power",
+    "location": "Bleiswijk, The Netherlands",
+    "greenhouse_compartments_reported_by_publisher": 6,
+    "experiment_description": "Four-month cucumber production in six glasshouse compartments (the WUR description states 96 m2; it does not clarify in the page text whether this is per compartment or total area).",
+    "teams_reported_by_publisher": [
+      "iGrow",
+      "deep_greens",
+      "AiCU",
+      "Sonoma",
+      "Croperators",
+      "Reference"
+    ],
+    "creators": [
+      "Silke Hemming",
+      "Feije de Zwart",
+      "Anne Elings",
+      "Isabella Righini",
+      "Anna Petropoulou"
+    ],
+    "data_content_reported_by_publisher": [
+      "greenhouse climate",
+      "irrigation",
+      "outside weather",
+      "greenhouse climate set points",
+      "harvest",
+      "crop management",
+      "resource consumption"
+    ]
+  },
+  "local_copy": {
+    "relative_path": "data/raw/wur/",
+    "download_date": "2026-11-05",
+    "download_date_note": "Fill in the actual date the local copy was downloaded; do not use the dataset publication date.",
+    "preservation": "Original downloaded files should remain unmodified.",
+    "observed_structure": {
+      "team_directories": [
+        "AiCU",
+        "Croperators",
+        "DeepGreens",
+        "Reference(Growers)",
+        "Sonoma",
+        "iGrow"
+      ],
+      "files_per_team": [
+        "CropManagement.csv",
+        "Greenhouse_climate.csv",
+        "Irrigation.csv",
+        "Production.csv",
+        "ResourceCalculations.csv",
+        "vip.csv"
+      ],
+      "root_files": [
+        "meteo.csv",
+        "ReadMe.pdf"
+      ],
+      "observed_file_count": 38,
+      "observed_csv_count": 37,
+      "observed_pdf_count": 1
+    }
+  },
+  "license": {
+    "status": "verified",
+    "name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "spdx_identifier": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://data.4tu.nl/datasets/c362564b-bc9e-40ec-856b-b616bb909183/1",
+    "usage_conditions": "The dataset is dedicated to the public domain under CC0 1.0.",
+    "redistribution_allowed": true,
+    "modification_allowed": true,
+    "commercial_use_allowed": true,
+    "attribution_required_by_license": false,
+    "notes": "The dataset-specific 4TU.ResearchData deposit explicitly identifies CC0 1.0 as its license. Academic citation of the original dataset is still recommended."
+  },
+  "citation": "Hemming, S., de Zwart, H. F., Elings, A., Righini, I., & Petropoulou, A. (2019). Autonomous Greenhouse Challenge, First Edition (2018). Wageningen University & Research. https://doi.org/10.4121/uuid:e4987a7b-04dd-4c89-9b18-883aad30ba9a",
+  "integrity": {
+    "checksum_algorithm": "SHA-256",
+    "checksum_manifest": "metadata/wur_sha256.txt",
+    "checksum_scope": "All regular files recursively under data/raw/wur/",
+    "generated_at": null,
+    "note": "Generate the manifest locally after confirming the raw dataset is complete."
+  },
+  "audit_notes": [
+    "The six local directories are team-labelled folders. Their mapping to physical compartment IDs has not yet been independently established.",
+    "The local team directory Reference(Growers) corresponds to the publisher-described Reference compartment/team; retain the original folder name.",
+    "Production.csv contains candidate production variables, but variable definitions and units must be checked against ReadMe.pdf before assigning a forecasting target."
+  ]
+}
