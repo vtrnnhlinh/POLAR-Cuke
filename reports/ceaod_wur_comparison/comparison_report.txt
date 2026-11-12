@@ -1,0 +1,48 @@
+CEAOD vs WUR RECORD-OVERLAP INVESTIGATION
+========================================================================================
+CEAOD: /home/vtrnnhlinh/Documents/POLAR-Cuke/data/raw/GreenhouseCucumber/HiPower_NL_2018-08_2018-12.csv
+CEAOD SHA-256: 124849a63ad820e50343a92744f71659bc2163a83f1520ba8a3e6a53fe140b46
+CEAOD source rows: 9,001
+CEAOD valid unique timestamps: 9,001
+CEAOD timestamp column: Timestamp
+CEAOD timestamp format: datetime/string
+WUR root: /home/vtrnnhlinh/Documents/POLAR-Cuke/data/raw/wur
+WUR CSV files discovered: 37
+WUR CSV files compared: 37
+WUR CSV files skipped: 0
+Numeric tolerance: 0.0
+Minimum shared variables per row: 3
+
+TOP CANDIDATE FILES (ranked by full matching rows, then timestamp overlap):
+                         wur_team_or_file  timestamp_overlap_count  shared_variable_count  eligible_rows_for_value_comparison  full_matching_rows  full_matching_rows_pct shared_variables
+              AiCU/Greenhouse_climate.csv                     9001                      2                                   0                   0                     NaN ventlee;ventwind
+       Croperators/Greenhouse_climate.csv                     9001                      2                                   0                   0                     NaN ventlee;ventwind
+        DeepGreens/Greenhouse_climate.csv                     9001                      2                                   0                   0                     NaN ventlee;ventwind
+Reference(Growers)/Greenhouse_climate.csv                     9001                      2                                   0                   0                     NaN ventlee;ventwind
+            Sonoma/Greenhouse_climate.csv                     9001                      2                                   0                   0                     NaN ventlee;ventwind
+             iGrow/Greenhouse_climate.csv                     9001                      2                                   0                   0                     NaN ventlee;ventwind
+                             AiCU/vip.csv                     9001                      1                                   0                   0                     NaN           co2vip
+                      Croperators/vip.csv                     9001                      1                                   0                   0                     NaN           co2vip
+                       DeepGreens/vip.csv                     9001                      1                                   0                   0                     NaN           co2vip
+               Reference(Growers)/vip.csv                     9001                      1                                   0                   0                     NaN           co2vip
+                           Sonoma/vip.csv                     9001                      1                                   0                   0                     NaN           co2vip
+                            iGrow/vip.csv                     9001                      1                                   0                   0                     NaN           co2vip
+                                meteo.csv                       29                      2                                   0                   0                     NaN      parout;rain
+                      AiCU/Irrigation.csv                       29                      1                                   0                   0                     NaN            drain
+               Croperators/Irrigation.csv                       29                      1                                   0                   0                     NaN            drain
+                DeepGreens/Irrigation.csv                       29                      1                                   0                   0                     NaN            drain
+        Reference(Growers)/Irrigation.csv                       29                      1                                   0                   0                     NaN            drain
+                    Sonoma/Irrigation.csv                       29                      1                                   0                   0                     NaN            drain
+                     iGrow/Irrigation.csv                       29                      1                                   0                   0                     NaN            drain
+                      AiCU/Production.csv                       29                      0                                   0                   0                     NaN                 
+
+INTERPRETATION GUIDE:
+- Timestamp overlap only means both files contain observations at the same times.
+- Matching values across several shared variables at the same timestamps are much stronger evidence.
+- Full matching rows are counted only when at least --min-shared paired values exist
+  and every paired non-missing shared value agrees within --tolerance.
+- A zero-tolerance match is exact numeric equality after CSV parsing.
+- A high match rate in one WUR team/file is evidence of shared records, not by itself
+  proof of the precise publication/export lineage.
+- If no common columns are found, inspect column_comparison.csv and extend ALIASES
+  only after confirming that differently named variables are semantically equivalent.

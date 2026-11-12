@@ -1,0 +1,393 @@
+CEAOD GREENHOUSE CUCUMBER — TIME-SERIES QUALITY AUDIT
+================================================================================================
+Dataset: /home/vtrnnhlinh/Documents/POLAR-Cuke/data/raw/GreenhouseCucumber/HiPower_NL_2018-08_2018-12.csv
+Generated: 2026-11-13T00:17:24+07:00
+File size: 3,434,112 bytes
+SHA-256: 124849a63ad820e50343a92744f71659bc2163a83f1520ba8a3e6a53fe140b46
+Encoding: utf-8-sig
+Delimiter: ','
+Rows: 9,001
+Columns: 64
+Memory usage: 4,716,656 bytes
+Timestamp column: Timestamp
+
+================================================================================================
+1. COLUMN INVENTORY AND VARIABLE GROUPS
+================================================================================================
+
+Timestamp: group=unclassified, dtype=str, non_null=9,001, missing=0, unique=9,001
+Temp: group=indoor_climate, dtype=float64, non_null=8,690, missing=311, unique=134
+Rh: group=indoor_climate, dtype=float64, non_null=8,509, missing=492, unique=492
+Co2: group=indoor_climate, dtype=float64, non_null=8,687, missing=314, unique=819
+HumidityDeficity: group=indoor_climate, dtype=float64, non_null=8,638, missing=363, unique=1,132
+VentLee: group=ventilation_heating, dtype=float64, non_null=8,629, missing=372, unique=718
+VentWind: group=ventilation_heating, dtype=float64, non_null=8,677, missing=324, unique=429
+LowerCircuit: group=ventilation_heating, dtype=float64, non_null=8,348, missing=653, unique=274
+GrowthCircuit: group=ventilation_heating, dtype=float64, non_null=8,363, missing=638, unique=140
+AssimilationLighting: group=screens_lighting, dtype=float64, non_null=8,958, missing=43, unique=3
+EnergyCurtain: group=screens_lighting, dtype=float64, non_null=8,815, missing=186, unique=300
+BlackOutCurtain: group=screens_lighting, dtype=float64, non_null=8,815, missing=186, unique=304
+ClimateEnergyDemand: group=radiation_energy, dtype=float64, non_null=8,878, missing=123, unique=90
+Co2ActuationRegulation: group=indoor_climate, dtype=float64, non_null=8,921, missing=80, unique=3
+WaterSupply: group=irrigation_water, dtype=float64, non_null=8,697, missing=304, unique=105
+Drain: group=irrigation_water, dtype=float64, non_null=8,937, missing=64, unique=284
+DrainEc: group=irrigation_water, dtype=float64, non_null=8,918, missing=83, unique=313
+DrainPh: group=irrigation_water, dtype=float64, non_null=8,717, missing=284, unique=195
+HeatingTempViP: group=indoor_climate, dtype=float64, non_null=8,735, missing=266, unique=95
+VentilationTempLeeSideViP: group=indoor_climate, dtype=float64, non_null=8,780, missing=221, unique=118
+VentilationTempWindSideViP: group=indoor_climate, dtype=float64, non_null=8,816, missing=185, unique=116
+LeeSideWindowPositionMin: group=outside_weather, dtype=float64, non_null=8,742, missing=259, unique=220
+NetPipeMin: group=ventilation_heating, dtype=float64, non_null=8,515, missing=486, unique=111
+CropPipeMin: group=ventilation_heating, dtype=float64, non_null=8,515, missing=486, unique=112
+EnergiedoekViPDoekstand: group=screens_lighting, dtype=float64, non_null=8,932, missing=69, unique=250
+VerduisteringsdoekViPDoekstand: group=screens_lighting, dtype=float64, non_null=8,932, missing=69, unique=241
+LightingViPOn: group=screens_lighting, dtype=float64, non_null=8,943, missing=58, unique=3
+Co2ViP: group=indoor_climate, dtype=float64, non_null=8,885, missing=116, unique=730
+HumidityDeficitViP: group=indoor_climate, dtype=float64, non_null=8,673, missing=328, unique=34
+WaterSupplyIntervalTimeViP: group=irrigation_water, dtype=float64, non_null=8,819, missing=182, unique=8
+IrrigationSupplyTimeViP: group=irrigation_water, dtype=float64, non_null=8,945, missing=56, unique=2
+WriteToiSii: group=other_control_metadata, dtype=float64, non_null=8,389, missing=612, unique=11
+SpAllowFruits: group=setpoints, dtype=float64, non_null=8,223, missing=778, unique=2
+SpAllowLeaves: group=setpoints, dtype=float64, non_null=0, missing=9,001, unique=0
+SpHeatingTemp: group=indoor_climate, dtype=float64, non_null=8,267, missing=734, unique=2,001
+SpVentTemp: group=indoor_climate, dtype=float64, non_null=8,267, missing=734, unique=786
+SpLeeMinVent: group=ventilation_heating, dtype=float64, non_null=8,264, missing=737, unique=393
+SpNetPipeMinVent: group=ventilation_heating, dtype=float64, non_null=8,264, missing=737, unique=1,729
+SpCropPipeMinVent: group=ventilation_heating, dtype=float64, non_null=8,264, missing=737, unique=1,730
+SpEnergyScreen: group=screens_lighting, dtype=float64, non_null=8,264, missing=737, unique=310
+SpBlackoutScreen: group=screens_lighting, dtype=float64, non_null=8,267, missing=734, unique=695
+SpLightingOn: group=screens_lighting, dtype=float64, non_null=8,268, missing=733, unique=3
+SpCo2: group=indoor_climate, dtype=float64, non_null=8,267, missing=734, unique=4,813
+SpHumidityDeficit: group=indoor_climate, dtype=float64, non_null=8,264, missing=737, unique=5,134
+SpIrrigationInterval: group=irrigation_water, dtype=float64, non_null=8,267, missing=734, unique=7
+SpIrrigationSupply: group=irrigation_water, dtype=float64, non_null=8,267, missing=734, unique=5
+ParCumulative: group=radiation_energy, dtype=float64, non_null=8,095, missing=906, unique=4,617
+Par: group=radiation_energy, dtype=float64, non_null=7,039, missing=1,962, unique=1,172
+CostLighting: group=screens_lighting, dtype=float64, non_null=5,280, missing=3,721, unique=293
+CostCo2: group=indoor_climate, dtype=float64, non_null=5,280, missing=3,721, unique=251
+ItemType: group=other_control_metadata, dtype=int64, non_null=9,001, missing=0, unique=1
+OutsideTemp: group=indoor_climate, dtype=float64, non_null=8,986, missing=15, unique=175
+OutsideRh: group=indoor_climate, dtype=float64, non_null=8,970, missing=31, unique=608
+Radiation: group=radiation_energy, dtype=float64, non_null=8,994, missing=7, unique=748
+RadiationSum: group=radiation_energy, dtype=float64, non_null=8,993, missing=8, unique=1,514
+WindSpeed: group=setpoints, dtype=float64, non_null=8,993, missing=8, unique=159
+WindDirection: group=irrigation_water, dtype=float64, non_null=8,996, missing=5, unique=8
+Rain: group=outside_weather, dtype=bool, non_null=9,001, missing=0, unique=2
+ParOut: group=radiation_energy, dtype=float64, non_null=8,994, missing=7, unique=1,296
+HeatEmission: group=radiation_energy, dtype=float64, non_null=8,993, missing=8, unique=126
+AbsoluteHumidity: group=unclassified, dtype=float64, non_null=7,982, missing=1,019, unique=2,052
+Irrigation: group=irrigation_water, dtype=float64, non_null=8,697, missing=304, unique=105
+LampHours: group=screens_lighting, dtype=float64, non_null=9,001, missing=0, unique=247
+Co2Hours: group=indoor_climate, dtype=float64, non_null=8,921, missing=80, unique=170
+
+Columns grouped by name (heuristic):
+  unclassified: Timestamp, AbsoluteHumidity
+  indoor_climate: Temp, Rh, Co2, HumidityDeficity, Co2ActuationRegulation, HeatingTempViP, VentilationTempLeeSideViP, VentilationTempWindSideViP, Co2ViP, HumidityDeficitViP, SpHeatingTemp, SpVentTemp, SpCo2, SpHumidityDeficit, CostCo2, OutsideTemp, OutsideRh, Co2Hours
+  ventilation_heating: VentLee, VentWind, LowerCircuit, GrowthCircuit, NetPipeMin, CropPipeMin, SpLeeMinVent, SpNetPipeMinVent, SpCropPipeMinVent
+  screens_lighting: AssimilationLighting, EnergyCurtain, BlackOutCurtain, EnergiedoekViPDoekstand, VerduisteringsdoekViPDoekstand, LightingViPOn, SpEnergyScreen, SpBlackoutScreen, SpLightingOn, CostLighting, LampHours
+  radiation_energy: ClimateEnergyDemand, ParCumulative, Par, Radiation, RadiationSum, ParOut, HeatEmission
+  irrigation_water: WaterSupply, Drain, DrainEc, DrainPh, WaterSupplyIntervalTimeViP, IrrigationSupplyTimeViP, SpIrrigationInterval, SpIrrigationSupply, WindDirection, Irrigation
+  outside_weather: LeeSideWindowPositionMin, Rain
+  other_control_metadata: WriteToiSii, ItemType
+  setpoints: SpAllowFruits, SpAllowLeaves, WindSpeed
+
+================================================================================================
+2. DATASET PREVIEW AND DESCRIPTIVE STATISTICS
+================================================================================================
+
+FIRST 5 ROWS
+          Timestamp  Temp   Rh   Co2  HumidityDeficity  VentLee  VentWind  LowerCircuit  GrowthCircuit  AssimilationLighting  EnergyCurtain  BlackOutCurtain  ClimateEnergyDemand  Co2ActuationRegulation  WaterSupply  Drain  DrainEc  DrainPh  HeatingTempViP  VentilationTempLeeSideViP  VentilationTempWindSideViP  LeeSideWindowPositionMin  NetPipeMin  CropPipeMin  EnergiedoekViPDoekstand  VerduisteringsdoekViPDoekstand  LightingViPOn  Co2ViP  HumidityDeficitViP  WaterSupplyIntervalTimeViP  IrrigationSupplyTimeViP  WriteToiSii  SpAllowFruits  SpAllowLeaves  SpHeatingTemp  SpVentTemp  SpLeeMinVent  SpNetPipeMinVent  SpCropPipeMinVent  SpEnergyScreen  SpBlackoutScreen  SpLightingOn  SpCo2  SpHumidityDeficit  SpIrrigationInterval  SpIrrigationSupply  ParCumulative  Par  CostLighting  CostCo2  ItemType  OutsideTemp  OutsideRh  Radiation  RadiationSum  WindSpeed  WindDirection  Rain  ParOut  HeatEmission  AbsoluteHumidity  Irrigation  LampHours  Co2Hours
+2018-08-26 00:25:00  18.8 81.7 725.0              2.96      0.0       0.0          35.9            0.0                   0.0           95.0              0.0                 51.9                     0.0         54.0    1.9     4.48     6.31            19.0                       20.0                        24.0                       0.0         0.0          0.0                      0.0                             0.0            0.0   400.0                 2.2                        20.0                    180.0          NaN            NaN            NaN            NaN         NaN           NaN               NaN                NaN             NaN               NaN           NaN    NaN                NaN                   NaN                 NaN            NaN  NaN           NaN      NaN         4         11.4       88.0        0.0           0.0        0.0           16.0 False     0.0         -30.0               NaN       3.096        0.0       0.0
+2018-08-26 00:30:00  18.8 82.0 710.0              2.89      0.0       0.0          36.8            0.0                   0.0           95.0              0.0                 38.9                     0.0         54.0    1.9     4.48     6.32            19.0                       20.0                        24.0                       0.0         0.0          0.0                      0.0                             0.0            0.0   400.0                 2.2                        20.0                    180.0          NaN            NaN            NaN            NaN         NaN           NaN               NaN                NaN             NaN               NaN           NaN    NaN                NaN                   NaN                 NaN            NaN  NaN           NaN      NaN         4         11.4       87.7        0.0           0.0        0.0           16.0 False     1.0         -30.0               NaN       3.096        0.0       0.0
+2018-08-26 00:35:00  18.9 81.8 713.0              2.92      0.0       0.0          37.2            0.0                   0.0           95.0              0.0                 38.9                     0.0         54.0    1.9     4.50     6.31            19.0                       20.0                        24.0                       0.0         0.0          0.0                      0.0                             0.0            0.0   400.0                 2.2                        20.0                    180.0          NaN            NaN            NaN            NaN         NaN           NaN               NaN                NaN             NaN               NaN           NaN    NaN                NaN                   NaN                 NaN            NaN  NaN           NaN      NaN         4         11.5       86.6        0.0           0.0        0.5           16.0 False     0.0         -31.0               NaN       3.096        0.0       0.0
+2018-08-26 00:40:00  18.9 81.6 720.0              2.97      0.0       0.0          36.4            0.0                   0.0           95.0              0.0                 51.9                     0.0         54.0    1.9     4.50     6.31            19.0                       20.0                        24.0                       0.0         0.0          0.0                      0.0                             0.0            0.0   400.0                 2.2                        20.0                    180.0          NaN            NaN            NaN            NaN         NaN           NaN               NaN                NaN             NaN               NaN           NaN    NaN                NaN                   NaN                 NaN            NaN  NaN           NaN      NaN         4         11.6       86.4        0.0           0.0        1.0           16.0 False     0.0         -32.0               NaN       3.096        0.0       0.0
+2018-08-26 00:45:00  18.9 81.5 714.0              2.97      0.0       0.0          35.9            0.0                   0.0           95.0              0.0                 51.9                     0.0         54.0    1.9     4.50     6.31            19.0                       20.0                        24.0                       0.0         0.0          0.0                      0.0                             0.0            0.0   400.0                 2.2                        20.0                    180.0          NaN            NaN            NaN            NaN         NaN           NaN               NaN                NaN             NaN               NaN           NaN    NaN                NaN                   NaN                 NaN            NaN  NaN           NaN      NaN         4         11.1       87.6        0.0           0.0        1.0           16.0 False     0.0         -31.0               NaN       3.096        0.0       0.0
+
+LAST 5 ROWS
+          Timestamp  Temp   Rh   Co2  HumidityDeficity  VentLee  VentWind  LowerCircuit  GrowthCircuit  AssimilationLighting  EnergyCurtain  BlackOutCurtain  ClimateEnergyDemand  Co2ActuationRegulation  WaterSupply  Drain  DrainEc  DrainPh  HeatingTempViP  VentilationTempLeeSideViP  VentilationTempWindSideViP  LeeSideWindowPositionMin  NetPipeMin  CropPipeMin  EnergiedoekViPDoekstand  VerduisteringsdoekViPDoekstand  LightingViPOn  Co2ViP  HumidityDeficitViP  WaterSupplyIntervalTimeViP  IrrigationSupplyTimeViP  WriteToiSii  SpAllowFruits  SpAllowLeaves  SpHeatingTemp  SpVentTemp  SpLeeMinVent  SpNetPipeMinVent  SpCropPipeMinVent  SpEnergyScreen  SpBlackoutScreen  SpLightingOn      SpCo2  SpHumidityDeficit  SpIrrigationInterval  SpIrrigationSupply  ParCumulative     Par  CostLighting  CostCo2  ItemType  OutsideTemp  OutsideRh  Radiation  RadiationSum  WindSpeed  WindDirection  Rain  ParOut  HeatEmission  AbsoluteHumidity  Irrigation  LampHours  Co2Hours
+2018-09-27 18:05:00  22.5 72.3 425.0              5.49     75.6       2.1          27.2           26.4                   0.0            0.0              0.0                129.7                     0.0         78.0   1.87     3.40     5.90            18.0                       25.0                        25.0                      76.0        26.5         26.5                      0.0                             0.0            0.0   401.0                2.19                        60.0                      0.0      65528.0           50.0            NaN           18.0        25.0           0.0         26.047941          26.047941             0.0               0.0           0.0 401.063721           2.192716                  60.0                90.0      21.719018 177.408      0.068445 0.003750         4         18.0       49.2      164.0        1468.0        5.9           64.0 False   332.0        -110.0          8.221478       4.472   9.833333  4.000000
+2018-09-27 18:10:00  22.4 70.4 425.0              5.87      0.0       0.0          27.1           26.2                   0.0            0.0              0.0                129.7                     0.0         78.0   1.87     3.41     5.89            18.0                       25.0                        25.0                       0.0        26.3         26.3                      0.0                             0.0            0.0   401.0                2.19                        60.0                      0.0      65528.0           50.0            NaN           18.0        25.0           0.0         25.773970          25.773970             0.0               0.0           0.0 401.049652           2.194746                  60.0                90.0      21.768612 165.312      0.068445 0.003750         4         18.2       49.4      151.0        1472.0        5.4           64.0 False   309.0        -109.0          8.221478       4.472   9.833333  4.000000
+2018-09-27 18:15:00  23.0 70.4 431.0              6.04      0.0       0.0          27.1           26.0                   0.0            0.0              0.0                103.8                     0.0         78.0   1.87     3.40     5.87            18.0                       25.0                        25.0                       0.0        25.8         25.8                      0.0                             0.0            0.0   401.0                2.19                        60.0                      0.0      65528.0           50.0            NaN           18.0        25.0           0.0         25.586985          25.586985             0.0               0.0           0.0 682.476440           2.196134                  60.0                90.0      21.814274 152.208      0.068445 0.003750         4         18.2       48.4      137.0        1477.0        4.4           64.0 False   284.0        -111.0          7.619228       4.472   9.833333  4.000000
+2018-09-27 18:20:00  23.1 73.5 431.0              5.47      0.0       0.0          26.9           25.8                   0.0            0.0              0.0                 90.8                     0.0         81.0   1.87     3.40     5.86            18.0                       25.0                        25.0                       0.0        25.8         25.8                      0.0                             0.0            0.0   401.0                2.19                        60.0                      0.0      65528.0           50.0            NaN           18.0        25.0           0.0         25.793493          25.793493             0.0               0.0           0.0 818.953857           2.194602                  60.0                90.0      21.855703 138.096      0.068445 0.003750         4         17.9       49.7      127.0        1480.0        3.4           32.0 False   260.0        -110.0          7.619228       4.644   9.833333  4.000000
+2018-09-27 18:25:00  23.2 76.4 437.0              4.90      0.0       0.0          26.7           25.9                   0.0            0.0              0.0                 77.8                     1.0         81.0   1.87     3.45     6.03            18.0                       25.0                        25.0                       0.0        25.8         25.8                      0.0                             0.0            0.0   819.0                2.19                        60.0                      0.0      65528.0           50.0            NaN           18.0        25.0           0.0         25.946747          25.946747             0.0               0.0           0.0 882.479300           2.193466                  60.0                90.0      21.894108 128.016      0.068445 0.003828         4         17.9       49.7      127.0        1480.0        3.4           32.0 False   260.0        -110.0          7.619228       4.644   9.833333  4.083333
+
+DESCRIPTIVE STATISTICS (numeric and non-numeric)
+                                 count unique                  top  freq         mean          std       min        25%         50%        75%         max
+Timestamp                         9001   9001  2018-08-26 00:25:00     1          NaN          NaN       NaN        NaN         NaN        NaN         NaN
+Temp                            8690.0    NaN                  NaN   NaN    23.949954     2.586399      16.6       22.3        24.6       26.0        29.9
+Rh                              8509.0    NaN                  NaN   NaN    77.422576    10.867096      38.2       71.6        81.3       85.5        93.1
+Co2                             8687.0    NaN                  NaN   NaN   682.947047   220.559041     294.0      484.0       640.0      848.0      1398.0
+HumidityDeficity                8638.0    NaN                  NaN   NaN      5.04016     2.858799      1.19     2.9325        3.97       6.45       15.45
+VentLee                         8629.0    NaN                  NaN   NaN    19.571526    27.994278       0.0        0.0         6.9       26.3       100.0
+VentWind                        8677.0    NaN                  NaN   NaN     7.240394    15.331469       0.0        0.0         1.6        7.6       100.0
+LowerCircuit                    8348.0    NaN                  NaN   NaN    23.306253     13.09221       0.0       25.0        28.7       30.1        62.3
+GrowthCircuit                   8363.0    NaN                  NaN   NaN    21.189023    12.924915       0.0        0.0        28.5       29.3        56.8
+AssimilationLighting            8958.0    NaN                  NaN   NaN    35.367939    47.718219       0.0        0.0         0.0      100.0       100.0
+EnergyCurtain                   8815.0    NaN                  NaN   NaN    16.933193    34.368155       0.0        0.0         0.0        0.0       100.0
+BlackOutCurtain                 8815.0    NaN                  NaN   NaN    20.201611     36.14745       0.0        0.0         0.0        8.9       100.0
+ClimateEnergyDemand             8878.0    NaN                  NaN   NaN    47.818856    92.596881       0.0        0.0         0.0       90.8      1259.6
+Co2ActuationRegulation          8921.0    NaN                  NaN   NaN     0.337967     0.473517       0.0        0.0         0.0        1.0         2.0
+WaterSupply                     8697.0    NaN                  NaN   NaN    50.932505    32.325306       0.0       22.0        54.0       73.0       141.0
+Drain                           8937.0    NaN                  NaN   NaN     1.354909      1.18702       0.0       0.43        1.17       1.79        5.39
+DrainEc                         8918.0    NaN                  NaN   NaN     5.455965     1.351109      0.05       4.21        6.09       6.44        8.07
+DrainPh                         8717.0    NaN                  NaN   NaN     5.805248     0.428774      0.01        5.5        5.82       6.09        6.86
+HeatingTempViP                  8735.0    NaN                  NaN   NaN    19.788552     2.553775       0.0       18.0        19.0       22.1        26.5
+VentilationTempLeeSideViP       8780.0    NaN                  NaN   NaN    24.949852     3.322479       0.0       25.0        26.0       26.0        32.0
+VentilationTempWindSideViP      8816.0    NaN                  NaN   NaN    25.159086     3.202479       0.0       25.0        26.0       26.0        32.0
+LeeSideWindowPositionMin        8742.0    NaN                  NaN   NaN       2.8593    11.448724       0.0        0.0         0.0        0.0       100.0
+NetPipeMin                      8515.0    NaN                  NaN   NaN    25.184627     7.437962       0.0       23.0        29.0       29.0        32.9
+CropPipeMin                     8515.0    NaN                  NaN   NaN    25.333306     7.552609       0.0       23.0        29.0       29.0        32.9
+EnergiedoekViPDoekstand         8932.0    NaN                  NaN   NaN    14.631359    32.679874       0.0        0.0         0.0        0.0       100.0
+VerduisteringsdoekViPDoekstand  8932.0    NaN                  NaN   NaN    19.234707    35.844784       0.0        0.0         0.0        0.0       100.0
+LightingViPOn                   8943.0    NaN                  NaN   NaN    44.078721    49.640218       0.0        0.0         0.0      100.0       100.0
+Co2ViP                          8885.0    NaN                  NaN   NaN   646.504446   241.533485       0.0      400.0       632.0      863.0      1379.0
+HumidityDeficitViP              8673.0    NaN                  NaN   NaN     2.473743     0.436039       0.0        2.2        2.53       2.55         4.4
+WaterSupplyIntervalTimeViP      8819.0    NaN                  NaN   NaN   192.405602   249.428501      10.0       30.0        60.0      600.0      1000.0
+IrrigationSupplyTimeViP         8945.0    NaN                  NaN   NaN    13.240917    46.992446       0.0        0.0         0.0        0.0       180.0
+WriteToiSii                     8389.0    NaN                  NaN   NaN  65170.01502  4627.309097     504.0    65528.0     65528.0    65528.0     65528.0
+SpAllowFruits                   8223.0    NaN                  NaN   NaN    51.889578     5.343762      50.0       50.0        50.0       50.0        67.0
+SpAllowLeaves                      0.0    NaN                  NaN   NaN          NaN          NaN       NaN        NaN         NaN        NaN         NaN
+SpHeatingTemp                   8267.0    NaN                  NaN   NaN      19.8368     2.605846       0.0       18.0        19.0  22.187955   26.542686
+SpVentTemp                      8267.0    NaN                  NaN   NaN     25.64778    10.193051       0.0       25.0        26.0       26.0       260.0
+SpLeeMinVent                    8264.0    NaN                  NaN   NaN     3.517465    13.985993      -2.0        0.0         0.0        0.0       182.5
+SpNetPipeMinVent                8264.0    NaN                  NaN   NaN    27.124936     2.987805       2.9       25.0        29.0       29.0   32.899277
+SpCropPipeMinVent               8264.0    NaN                  NaN   NaN    27.282729     3.182003       2.9       25.0        29.0       29.0   32.899277
+SpEnergyScreen                  8264.0    NaN                  NaN   NaN    15.514309    33.513537     -72.0        0.0         0.0        0.0       100.0
+SpBlackoutScreen                8267.0    NaN                  NaN   NaN    21.845247    39.367173     -88.4        0.0         0.0       11.7  195.243637
+SpLightingOn                    8268.0    NaN                  NaN   NaN    47.154814    49.912886       0.0        0.0         0.0      100.0       100.0
+SpCo2                           8267.0    NaN                  NaN   NaN   652.335228   248.884983       0.0  400.26861  633.090332   886.9044  1450.46729
+SpHumidityDeficit               8264.0    NaN                  NaN   NaN     2.496725     0.433154       0.0   2.199256    2.532079    2.55856    4.400442
+SpIrrigationInterval            8267.0    NaN                  NaN   NaN   202.478529   251.914197      10.0       30.0        60.0      600.0      1000.0
+SpIrrigationSupply              8267.0    NaN                  NaN   NaN   102.280513     21.14411       1.0       90.0        90.0      120.0       180.0
+ParCumulative                   8095.0    NaN                  NaN   NaN     9.503175     7.783351       0.0     2.4123    7.550473  16.137177   39.344244
+Par                             7039.0    NaN                  NaN   NaN   236.630393   176.476601       0.0      187.0       187.0    331.144      876.96
+CostLighting                    5280.0    NaN                  NaN   NaN     0.054979     0.028732       0.0   0.033345     0.06084   0.069761    0.143325
+CostCo2                         5280.0    NaN                  NaN   NaN     0.003671     0.002963       0.0   0.001094    0.003047   0.005781    0.011484
+ItemType                        9001.0    NaN                  NaN   NaN          4.0          0.0       4.0        4.0         4.0        4.0         4.0
+OutsideTemp                     8986.0    NaN                  NaN   NaN    16.015613     3.330761       6.6       13.9        16.2       18.1        24.4
+OutsideRh                       8970.0    NaN                  NaN   NaN    73.447436    14.500584      33.4       62.2        75.7       85.6        98.1
+Radiation                       8994.0    NaN                  NaN   NaN   144.678008   205.098407       0.0        0.0        16.0      248.0       870.0
+RadiationSum                    8993.0    NaN                  NaN   NaN   550.625264   610.003898       0.0        0.0       312.0     1064.0      2577.0
+WindSpeed                       8993.0    NaN                  NaN   NaN     3.573602       3.3202       0.0        0.9         2.9        5.4        17.2
+WindDirection                   8996.0    NaN                  NaN   NaN    31.416852      32.5431       1.0        4.0        32.0       32.0       128.0
+Rain                              9001      2                False  8635          NaN          NaN       NaN        NaN         NaN        NaN         NaN
+ParOut                          8994.0    NaN                  NaN   NaN   294.065155   416.426827       0.0        0.0        36.0      502.0      1751.0
+HeatEmission                    8993.0    NaN                  NaN   NaN   -51.821861    31.427508    -125.0      -74.0       -56.0      -25.0         0.0
+AbsoluteHumidity                7982.0    NaN                  NaN   NaN     10.13854     2.260493  5.492637   8.559928    9.589484  11.670319   16.755642
+Irrigation                      8697.0    NaN                  NaN   NaN      2.92013     1.853318       0.0   1.261333       3.096   4.185333       8.084
+LampHours                       9001.0    NaN                  NaN   NaN     6.565206     4.507652       0.0   2.583333    7.166667   9.583333        20.5
+Co2Hours                        8921.0    NaN                  NaN   NaN      3.71157     3.229786       0.0   0.833333         3.0   6.333333       12.25
+
+================================================================================================
+3. MISSINGNESS PROFILE
+================================================================================================
+
+Missing cells: 38,616/576,064 (6.7034%)
+
+Columns with missing values (sorted by missing percentage):
+  Temp: 311 (3.4552%), longest consecutive run=24
+  Rh: 492 (5.4661%), longest consecutive run=24
+  Co2: 314 (3.4885%), longest consecutive run=24
+  HumidityDeficity: 363 (4.0329%), longest consecutive run=24
+  VentLee: 372 (4.1329%), longest consecutive run=24
+  VentWind: 324 (3.5996%), longest consecutive run=24
+  LowerCircuit: 653 (7.2547%), longest consecutive run=27
+  GrowthCircuit: 638 (7.0881%), longest consecutive run=24
+  AssimilationLighting: 43 (0.4777%), longest consecutive run=18
+  EnergyCurtain: 186 (2.0664%), longest consecutive run=24
+  BlackOutCurtain: 186 (2.0664%), longest consecutive run=24
+  ClimateEnergyDemand: 123 (1.3665%), longest consecutive run=24
+  Co2ActuationRegulation: 80 (0.8888%), longest consecutive run=24
+  WaterSupply: 304 (3.3774%), longest consecutive run=24
+  Drain: 64 (0.7110%), longest consecutive run=24
+  DrainEc: 83 (0.9221%), longest consecutive run=24
+  DrainPh: 284 (3.1552%), longest consecutive run=24
+  HeatingTempViP: 266 (2.9552%), longest consecutive run=24
+  VentilationTempLeeSideViP: 221 (2.4553%), longest consecutive run=24
+  VentilationTempWindSideViP: 185 (2.0553%), longest consecutive run=24
+  LeeSideWindowPositionMin: 259 (2.8775%), longest consecutive run=24
+  NetPipeMin: 486 (5.3994%), longest consecutive run=24
+  CropPipeMin: 486 (5.3994%), longest consecutive run=24
+  EnergiedoekViPDoekstand: 69 (0.7666%), longest consecutive run=24
+  VerduisteringsdoekViPDoekstand: 69 (0.7666%), longest consecutive run=24
+  LightingViPOn: 58 (0.6444%), longest consecutive run=24
+  Co2ViP: 116 (1.2887%), longest consecutive run=24
+  HumidityDeficitViP: 328 (3.6440%), longest consecutive run=24
+  WaterSupplyIntervalTimeViP: 182 (2.0220%), longest consecutive run=24
+  IrrigationSupplyTimeViP: 56 (0.6222%), longest consecutive run=24
+  WriteToiSii: 612 (6.7992%), longest consecutive run=551
+  SpAllowFruits: 778 (8.6435%), longest consecutive run=778
+  SpAllowLeaves: 9,001 (100.0000%), longest consecutive run=9,001
+  SpHeatingTemp: 734 (8.1546%), longest consecutive run=592
+  SpVentTemp: 734 (8.1546%), longest consecutive run=592
+  SpLeeMinVent: 737 (8.1880%), longest consecutive run=614
+  SpNetPipeMinVent: 737 (8.1880%), longest consecutive run=614
+  SpCropPipeMinVent: 737 (8.1880%), longest consecutive run=614
+  SpEnergyScreen: 737 (8.1880%), longest consecutive run=614
+  SpBlackoutScreen: 734 (8.1546%), longest consecutive run=592
+  SpLightingOn: 733 (8.1435%), longest consecutive run=551
+  SpCo2: 734 (8.1546%), longest consecutive run=604
+  SpHumidityDeficit: 737 (8.1880%), longest consecutive run=614
+  SpIrrigationInterval: 734 (8.1546%), longest consecutive run=604
+  SpIrrigationSupply: 734 (8.1546%), longest consecutive run=604
+  ParCumulative: 906 (10.0655%), longest consecutive run=381
+  Par: 1,962 (21.7976%), longest consecutive run=1,930
+  CostLighting: 3,721 (41.3399%), longest consecutive run=3,721
+  CostCo2: 3,721 (41.3399%), longest consecutive run=3,721
+  OutsideTemp: 15 (0.1666%), longest consecutive run=4
+  OutsideRh: 31 (0.3444%), longest consecutive run=4
+  Radiation: 7 (0.0778%), longest consecutive run=1
+  RadiationSum: 8 (0.0889%), longest consecutive run=2
+  WindSpeed: 8 (0.0889%), longest consecutive run=3
+  WindDirection: 5 (0.0555%), longest consecutive run=2
+  ParOut: 7 (0.0778%), longest consecutive run=4
+  HeatEmission: 8 (0.0889%), longest consecutive run=2
+  AbsoluteHumidity: 1,019 (11.3210%), longest consecutive run=214
+  Irrigation: 304 (3.3774%), longest consecutive run=24
+  Co2Hours: 80 (0.8888%), longest consecutive run=24
+
+Entirely missing columns: ['SpAllowLeaves']
+
+Setpoint fields: 14; rows with all setpoints missing: 612; rows with at least one setpoint present: 8,389
+
+================================================================================================
+4. TIMESTAMP VALIDITY, ORDER AND DUPLICATES
+================================================================================================
+
+Non-null source timestamps: 9,001
+Valid parsed timestamps: 9,001
+Invalid non-null timestamps: 0
+Rows involved in duplicate timestamps: 0
+Distinct duplicated timestamp values: 0
+First timestamp: 2018-08-26 00:25:00
+Last timestamp: 2018-09-27 18:25:00
+Rows out of chronological order: 0
+
+================================================================================================
+5. TEMPORAL COVERAGE AND 5-MINUTE INTERVALS
+================================================================================================
+
+Unique timestamps: 9,001
+Most common interval: 0 days 00:05:00
+Intervals equal to expected step: 8,902
+Intervals longer than expected: 98
+Intervals shorter than expected: 0
+Minimum observed interval: 0 days 00:05:00
+Maximum observed interval: 0 days 07:00:00
+Expected timestamps at 5-minute cadence: 9,433
+Missing expected timestamps: 432
+Missing expected timestamp percentage: 4.5797%
+First 20 missing timestamps: [Timestamp('2018-08-26 01:10:00'), Timestamp('2018-08-26 06:10:00'), Timestamp('2018-08-26 07:55:00'), Timestamp('2018-08-26 08:45:00'), Timestamp('2018-08-26 14:35:00'), Timestamp('2018-08-26 16:40:00'), Timestamp('2018-08-26 19:40:00'), Timestamp('2018-08-26 19:45:00'), Timestamp('2018-08-27 00:55:00'), Timestamp('2018-08-27 01:00:00'), Timestamp('2018-08-27 01:05:00'), Timestamp('2018-08-27 01:50:00'), Timestamp('2018-08-27 01:55:00'), Timestamp('2018-08-27 02:00:00'), Timestamp('2018-08-27 09:20:00'), Timestamp('2018-08-27 09:25:00'), Timestamp('2018-08-27 09:30:00'), Timestamp('2018-08-27 09:35:00'), Timestamp('2018-08-27 09:40:00'), Timestamp('2018-08-27 09:45:00')]
+
+Calendar dates represented: 33/33
+Calendar dates with no timestamp: 0
+
+================================================================================================
+6. VARIABLE TYPES AND VALUE PROFILES
+================================================================================================
+
+Numeric columns (62): ['Temp', 'Rh', 'Co2', 'HumidityDeficity', 'VentLee', 'VentWind', 'LowerCircuit', 'GrowthCircuit', 'AssimilationLighting', 'EnergyCurtain', 'BlackOutCurtain', 'ClimateEnergyDemand', 'Co2ActuationRegulation', 'WaterSupply', 'Drain', 'DrainEc', 'DrainPh', 'HeatingTempViP', 'VentilationTempLeeSideViP', 'VentilationTempWindSideViP', 'LeeSideWindowPositionMin', 'NetPipeMin', 'CropPipeMin', 'EnergiedoekViPDoekstand', 'VerduisteringsdoekViPDoekstand', 'LightingViPOn', 'Co2ViP', 'HumidityDeficitViP', 'WaterSupplyIntervalTimeViP', 'IrrigationSupplyTimeViP', 'WriteToiSii', 'SpAllowFruits', 'SpAllowLeaves', 'SpHeatingTemp', 'SpVentTemp', 'SpLeeMinVent', 'SpNetPipeMinVent', 'SpCropPipeMinVent', 'SpEnergyScreen', 'SpBlackoutScreen', 'SpLightingOn', 'SpCo2', 'SpHumidityDeficit', 'SpIrrigationInterval', 'SpIrrigationSupply', 'ParCumulative', 'Par', 'CostLighting', 'CostCo2', 'ItemType', 'OutsideTemp', 'OutsideRh', 'Radiation', 'RadiationSum', 'WindSpeed', 'WindDirection', 'ParOut', 'HeatEmission', 'AbsoluteHumidity', 'Irrigation', 'LampHours', 'Co2Hours']
+Boolean-like columns (1): ['Rain']
+Categorical/low-cardinality candidates (13): ['AssimilationLighting', 'Co2ActuationRegulation', 'LightingViPOn', 'WaterSupplyIntervalTimeViP', 'IrrigationSupplyTimeViP', 'WriteToiSii', 'SpAllowFruits', 'SpAllowLeaves', 'SpLightingOn', 'SpIrrigationInterval', 'SpIrrigationSupply', 'ItemType', 'WindDirection']
+Temp: min=16.6, max=29.9, mean=23.95, std=2.5864, unique=134, integer-like=10.16%
+Rh: min=38.2, max=93.1, mean=77.4226, std=10.8671, unique=492, integer-like=9.93%
+Co2: min=294, max=1398, mean=682.947, std=220.559, unique=819, integer-like=100.00%
+HumidityDeficity: min=1.19, max=15.45, mean=5.04016, std=2.8588, unique=1,132, integer-like=0.96%
+VentLee: min=0, max=100, mean=19.5715, std=27.9943, unique=718, integer-like=44.35%
+VentWind: min=0, max=100, mean=7.24039, std=15.3315, unique=429, integer-like=49.65%
+LowerCircuit: min=0, max=62.3, mean=23.3063, std=13.0922, unique=274, integer-like=30.33%
+GrowthCircuit: min=0, max=56.8, mean=21.189, std=12.9249, unique=140, integer-like=32.24%
+AssimilationLighting: min=0, max=100, mean=35.3679, std=47.7182, unique=3, integer-like=100.00%
+EnergyCurtain: min=0, max=100, mean=16.9332, std=34.3682, unique=300, integer-like=92.60%
+BlackOutCurtain: min=0, max=100, mean=20.2016, std=36.1475, unique=304, integer-like=87.62%
+ClimateEnergyDemand: min=0, max=1259.6, mean=47.8189, std=92.5969, unique=90, integer-like=51.42%
+Co2ActuationRegulation: min=0, max=2, mean=0.337967, std=0.473517, unique=3, integer-like=100.00%
+WaterSupply: min=0, max=141, mean=50.9325, std=32.3253, unique=105, integer-like=100.00%
+Drain: min=0, max=5.39, mean=1.35491, std=1.18702, unique=284, integer-like=13.11%
+DrainEc: min=0.05, max=8.07, mean=5.45597, std=1.35111, unique=313, integer-like=1.69%
+DrainPh: min=0.01, max=6.86, mean=5.80525, std=0.428774, unique=195, integer-like=0.85%
+HeatingTempViP: min=0, max=26.5, mean=19.7886, std=2.55377, unique=95, integer-like=62.69%
+VentilationTempLeeSideViP: min=0, max=32, mean=24.9499, std=3.32248, unique=118, integer-like=89.99%
+VentilationTempWindSideViP: min=0, max=32, mean=25.1591, std=3.20248, unique=116, integer-like=90.95%
+LeeSideWindowPositionMin: min=0, max=100, mean=2.8593, std=11.4487, unique=220, integer-like=95.81%
+NetPipeMin: min=0, max=32.9, mean=25.1846, std=7.43796, unique=111, integer-like=81.81%
+CropPipeMin: min=0, max=32.9, mean=25.3333, std=7.55261, unique=112, integer-like=81.81%
+EnergiedoekViPDoekstand: min=0, max=100, mean=14.6314, std=32.6799, unique=250, integer-like=93.30%
+VerduisteringsdoekViPDoekstand: min=0, max=100, mean=19.2347, std=35.8448, unique=241, integer-like=87.75%
+LightingViPOn: min=0, max=100, mean=44.0787, std=49.6402, unique=3, integer-like=100.00%
+Co2ViP: min=0, max=1379, mean=646.504, std=241.533, unique=730, integer-like=100.00%
+HumidityDeficitViP: min=0, max=4.4, mean=2.47374, std=0.436039, unique=34, integer-like=11.30%
+WaterSupplyIntervalTimeViP: min=10, max=1000, mean=192.406, std=249.429, unique=8, integer-like=100.00%
+IrrigationSupplyTimeViP: min=0, max=180, mean=13.2409, std=46.9924, unique=2, integer-like=100.00%
+WriteToiSii: min=504, max=65528, mean=65170, std=4627.31, unique=11, integer-like=100.00%
+SpAllowFruits: min=50, max=67, mean=51.8896, std=5.34376, unique=2, integer-like=100.00%
+SpHeatingTemp: min=0, max=26.5427, mean=19.8368, std=2.60585, unique=2,001, integer-like=55.68%
+SpVentTemp: min=0, max=260, mean=25.6478, std=10.1931, unique=786, integer-like=87.17%
+SpLeeMinVent: min=-2, max=182.5, mean=3.51747, std=13.986, unique=393, integer-like=94.78%
+SpNetPipeMinVent: min=2.9, max=32.8993, mean=27.1249, std=2.98781, unique=1,729, integer-like=77.90%
+SpCropPipeMinVent: min=2.9, max=32.8993, mean=27.2827, std=3.182, unique=1,730, integer-like=77.90%
+SpEnergyScreen: min=-72, max=100, mean=15.5143, std=33.5135, unique=310, integer-like=92.98%
+SpBlackoutScreen: min=-88.4, max=195.244, mean=21.8452, std=39.3672, unique=695, integer-like=86.33%
+SpLightingOn: min=0, max=100, mean=47.1548, std=49.9129, unique=3, integer-like=100.00%
+SpCo2: min=0, max=1450.47, mean=652.335, std=248.885, unique=4,813, integer-like=24.19%
+SpHumidityDeficit: min=0, max=4.40044, mean=2.49672, std=0.433154, unique=5,134, integer-like=11.77%
+SpIrrigationInterval: min=10, max=1000, mean=202.479, std=251.914, unique=7, integer-like=100.00%
+SpIrrigationSupply: min=1, max=180, mean=102.281, std=21.1441, unique=5, integer-like=100.00%
+ParCumulative: min=0, max=39.3442, mean=9.50317, std=7.78335, unique=4,617, integer-like=7.75%
+Par: min=0, max=876.96, mean=236.63, std=176.477, unique=1,172, integer-like=46.94%
+CostLighting: min=0, max=0.143325, mean=0.0549795, std=0.0287318, unique=293, integer-like=2.29%
+CostCo2: min=0, max=0.0114844, mean=0.00367119, std=0.00296262, unique=251, integer-like=4.26%
+ItemType: min=4, max=4, mean=4, std=0, unique=1, integer-like=100.00%
+OutsideTemp: min=6.6, max=24.4, mean=16.0156, std=3.33076, unique=175, integer-like=9.66%
+OutsideRh: min=33.4, max=98.1, mean=73.4474, std=14.5006, unique=608, integer-like=10.57%
+Radiation: min=0, max=870, mean=144.678, std=205.098, unique=748, integer-like=100.00%
+RadiationSum: min=0, max=2577, mean=550.625, std=610.004, unique=1,514, integer-like=100.00%
+WindSpeed: min=0, max=17.2, mean=3.5736, std=3.3202, unique=159, integer-like=31.85%
+WindDirection: min=1, max=128, mean=31.4169, std=32.5431, unique=8, integer-like=100.00%
+ParOut: min=0, max=1751, mean=294.065, std=416.427, unique=1,296, integer-like=100.00%
+HeatEmission: min=-125, max=0, mean=-51.8219, std=31.4275, unique=126, integer-like=100.00%
+AbsoluteHumidity: min=5.49264, max=16.7556, mean=10.1385, std=2.26049, unique=2,052, integer-like=0.00%
+Irrigation: min=0, max=8.084, mean=2.92013, std=1.85332, unique=105, integer-like=4.68%
+LampHours: min=0, max=20.5, mean=6.56521, std=4.50765, unique=247, integer-like=16.28%
+Co2Hours: min=0, max=12.25, mean=3.71157, std=3.22979, unique=170, integer-like=18.22%
+
+================================================================================================
+7. CONSERVATIVE DOMAIN SCREENING
+================================================================================================
+
+Rh: checked=8,509, outside broad bounds=0, bounds=[0, 100]
+OutsideRh: checked=8,970, outside broad bounds=0, bounds=[0, 100]
+Co2: checked=8,687, outside broad bounds=0, bounds=[0, None]
+Co2ViP: checked=8,885, outside broad bounds=0, bounds=[0, None]
+HumidityDeficity: checked=8,638, outside broad bounds=0, bounds=[0, None]
+HumidityDeficitViP: checked=8,673, outside broad bounds=0, bounds=[0, None]
+WindSpeed: checked=8,993, outside broad bounds=0, bounds=[0, None]
+Radiation: checked=8,994, outside broad bounds=0, bounds=[0, None]
+RadiationSum: checked=8,993, outside broad bounds=0, bounds=[0, None]
+Par: checked=7,039, outside broad bounds=0, bounds=[0, None]
+ParCumulative: checked=8,095, outside broad bounds=0, bounds=[0, None]
+ParOut: checked=8,994, outside broad bounds=0, bounds=[0, None]
+Rain: checked=9,001, outside broad bounds=0, bounds=[0, 1]
+
+These bounds are only screening heuristics. Confirm units and definitions before classifying flagged observations as errors.
+
+================================================================================================
+8. CONSTANT, INFINITE AND ZERO-VARIANCE COLUMNS
+================================================================================================
+
+SpAllowLeaves: all values missing/non-numeric
+ItemType: constant value=np.int64(4)
+
+================================================================================================
+9. AUDIT NOTES AND LIMITATIONS
+================================================================================================
+
+- The dataset is treated as a high-frequency greenhouse time series, not a production table.
+- Variable groups are inferred from column names and need confirmation from documentation.
+- Missing values may mean unavailable, inactive, not applicable, or unrecorded; do not assume one meaning.
+- Consecutive missing-run length is measured in row order, not elapsed time.
+- Five-minute expected-grid gaps are calculated from the observed minimum to maximum timestamp.
+- Calendar-date coverage is not evidence of daily production observations.
+- Domain bounds are broad screening rules, not validated agronomic limits.
+- No causal, agronomic, or sensor-calibration conclusions are made.
+- The source CSV is never modified.
