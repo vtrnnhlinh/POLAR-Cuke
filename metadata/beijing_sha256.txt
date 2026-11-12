@@ -1,0 +1,4 @@
+ebb7e7f6cffbc279dbc668c4b26ff2b916e9fd13b94239288d6323aa325afa14  data/raw/beijing/温室快菜种植监测数据（2024年12月24日~2025年2月6日）.xlsx
+3f119bf4b2a13f8675394b0c09ce2afd570ef00e05c2ab68832be27772806039  data/raw/beijing/温室春茬番茄种植监测数据（2024年5月1日~2025年7月10日）.xlsx
+194e27a80cf8a19beeb2095264f5f2cc2b286516086e191337d0d878feae4a16  data/raw/beijing/温室秋茬番茄种植监测数据（2024年8月28日~2025年1月10日）.xlsx
+5aec2edacfeee1916b73dcd63b87d0a9382231f40eac53300edda35c926e537a  data/raw/beijing/温室黄瓜种植监测数据（2025年3月6日~2025年7月3日）.xlsx
