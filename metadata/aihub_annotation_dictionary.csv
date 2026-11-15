@@ -1,0 +1,52 @@
+﻿field_category,code_name,code_value,description,data_type,target_applicability
+Filename Code (Pos 1),Metadata Version,V003,Schema version identifier for image naming and JSON formatting,string,All
+Filename Code (Pos 2),Data Type Code,2,Time-series CCTV automated greenhouse overview,integer,CCTV
+Filename Code (Pos 2),Data Type Code,3,Time-series manual plant-part imagery,integer,Plant-part
+Filename Code (Pos 2),Data Type Code,4,Growth indicator measurement imagery,integer,Growth measurement
+Filename Code (Pos 2),Data Type Code,5,Disease and pest damage symptom imagery,integer,Disease/Pest
+Filename Code (Pos 2),Data Type Code,6,Pest monitoring trap imagery,integer,Trap
+Filename Code (Pos 3),Crop Code,3,"Cucumber (cv. Baekdadagi, Cucumis sativus L.)",integer,Cucumber
+Filename Code (Pos 3),Crop Code,2,Strawberry (cv. Seolhyang),integer,Strawberry
+Filename Code (Pos 4),Individual Plant Code,1,Unassigned / multiple plants in view (구분없음),integer,CCTV / Overview
+Filename Code (Pos 4),Individual Plant Code,N,Specific tagged plant identifier (sparse / unlinked to harvest),integer,Plant-part
+Filename Code (Pos 5),Plant Part Code,1,Unassigned / whole plant canopy (구분없음),integer,Canopy
+Filename Code (Pos 5),Plant Part Code,2,Fruit (열매),integer,Fruit
+Filename Code (Pos 5),Plant Part Code,3,Flower (꽃),integer,Flower
+Filename Code (Pos 5),Plant Part Code,4,Leaf (잎),integer,Leaf
+Filename Code (Pos 5),Plant Part Code,5,Branch / Lateral stem (가지),integer,Branch
+Filename Code (Pos 5),Plant Part Code,6,Main stem (줄기),integer,Stem
+Filename Code (Pos 6),Growth Stage Code,2,Seedling stage (유묘기 - prior to main greenhouse transplanting),integer,Cucumber
+Filename Code (Pos 6),Growth Stage Code,3,Vegetative growth stage (생장기 - post-transplant canopy expansion),integer,Cucumber
+Filename Code (Pos 6),Growth Stage Code,4,Fruit-setting / fruiting stage (착과/과실기 - flowering through harvest),integer,Cucumber
+Filename Code (Pos 7),Anomaly Code,2,Normal healthy crop (정상),integer,All
+Filename Code (Pos 7),Anomaly Code,3,"Gray mold (잿빛곰팡이병, Botrytis cinerea)",integer,Cucumber/Strawberry
+Filename Code (Pos 7),Anomaly Code,4,"Powdery mildew (흰가루병, Podosphaera xanthii)",integer,Cucumber
+Filename Code (Pos 7),Anomaly Code,5,"Downy mildew (노균병, Pseudoperonospora cubensis)",integer,Cucumber
+Filename Code (Pos 7),Anomaly Code,7,Calcium deficiency physiological disorder (칼슘결핍),integer,Cucumber
+Filename Code (Pos 8),Severity Code,2,Normal / zero symptoms,integer,All
+Filename Code (Pos 8),Severity Code,3,Early symptom onset (초기),integer,Diseased
+Filename Code (Pos 8),Severity Code,4,Advanced symptom stage (중기이후),integer,Diseased
+Filename Code (Pos 9),Cucumber Growth Metric Code,2,Growth point / apex (생장점),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,3,Plant height (초장),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,4,Weekly stem elongation (생장길이),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,5,Stem diameter (줄기직경),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,6,Internode length (절간장),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,7,Female flower count (암꽃수),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,8,Immature fruit count (유과수),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,9,Fruit length and diameter (과장/과경),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,10,Leaf length and leaf area (엽장/엽면적),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,11,Flowering node position (개화마디),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,12,Male flower count (수꽃수),integer,Growth Index
+Filename Code (Pos 9),Cucumber Growth Metric Code,13,Total node count (마디수),integer,Growth Index
+Filename Code (Pos 12),Capture Date,YYYYMMDD,Calendar observation date recorded independently of EXIF metadata,date string,All
+Filename Code (Pos 13),Daily Sequence Index,N,Monotonically increasing daily camera frame sequence number,integer,All
+JSON Structure,description.image,filename,Target image file name corresponding to annotation,string,JSON Root
+JSON Structure,description.date,YYYYMMDD,Date of acquisition,string,JSON Root
+JSON Structure,description.time,HHMM,"Time of acquisition (24-hour format, e.g. 1011)",string,JSON Root
+JSON Structure,description.width / height,pixels,Image width and height in pixels,integer,JSON Root
+JSON Structure,result[].type,bbox / polygon,Annotation geometry type,string,JSON Result
+JSON Structure,result[].attrb,class label,"Semantic organ class: 성숙과 (mature fruit), 유과 (young fruit), 개화 (flower), 생장점 (growth point)",string,JSON Result
+JSON Structure,"result[].x, y, w, h",coordinates,Top-left origin and bounding box dimensions in image coordinate space,float,JSON Result
+Harvest / Production,harvest_weight_kg,None,ABSENT: Fresh harvest weight in kg or kg/m2 is NOT provided anywhere in the dataset,missing,None
+Harvest / Production,daily_yield_count,None,ABSENT: Daily count of commercially harvested cucumbers is NOT recorded,missing,None
+Facility Telemetry,greenhouse_env_sensors,None,ABSENT: Paired continuous greenhouse climate sensors (air/soil/radiation) are NOT included in dataset 71523,missing,None

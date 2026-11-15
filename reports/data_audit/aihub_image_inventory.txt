@@ -1,0 +1,80 @@
+AI-HUB SMART FARM CUCUMBER & STRAWBERRY IMAGE DATASET (SN: 71523)
+Dataset Inventory and Partition Breakdown
+================================================================================
+
+Total S3 Archive Files:     40
+Total Download Volume:      199.44 GB (214,150,170,472 bytes)
+
+1. SUMMARY BY CROP AND DATA KIND:
+                                          Total Size (GB)  File Count
+crop            data_kind                                            
+Cucumber (오이)   Label Annotations (JSON)            0.114          10
+                Raw Images (JPEG)                 125.050          10
+Strawberry (딸기) Label Annotations (JSON)            0.070          10
+                Raw Images (JPEG)                  74.205          10
+
+2. CUCUMBER PARTITION SUMMARY:
+                                                                         Total Size (GB)  File Count
+category                            split      data_kind                                            
+Growth Indicator Measurement        Training   Label Annotations (JSON)            0.017           1
+                                               Raw Images (JPEG)                  26.599           1
+                                    Validation Label Annotations (JSON)            0.002           1
+                                               Raw Images (JPEG)                   4.338           1
+Pest & Disease Damage               Training   Label Annotations (JSON)            0.020           1
+                                               Raw Images (JPEG)                  35.110           1
+                                    Validation Label Annotations (JSON)            0.001           1
+                                               Raw Images (JPEG)                   4.578           1
+Pest Trap                           Training   Label Annotations (JSON)            0.001           1
+                                               Raw Images (JPEG)                   2.108           1
+                                    Validation Label Annotations (JSON)            0.000           1
+                                               Raw Images (JPEG)                   0.240           1
+Time-series CCTV (Whole Greenhouse) Training   Label Annotations (JSON)            0.048           1
+                                               Raw Images (JPEG)                  13.701           1
+                                    Validation Label Annotations (JSON)            0.006           1
+                                               Raw Images (JPEG)                   1.705           1
+Time-series Plant-Part              Training   Label Annotations (JSON)            0.017           1
+                                               Raw Images (JPEG)                  30.802           1
+                                    Validation Label Annotations (JSON)            0.002           1
+                                               Raw Images (JPEG)                   5.869           1
+
+3. COMPLETE S3 MULTIPART ARCHIVE LIST (40 FILES):
+ 1. [  0.61 GB] Training   | Strawberry (딸기)    | Pest & Disease Damage               | TS_딸기_병해충피해이미지.zip
+ 2. [ 19.31 GB] Training   | Strawberry (딸기)    | Growth Indicator Measurement        | TS_딸기_생육측정.zip
+ 3. [  7.13 GB] Training   | Strawberry (딸기)    | Time-series CCTV (Whole Greenhouse) | TS_딸기_시계열생육(온실전체).zip
+ 4. [ 33.04 GB] Training   | Strawberry (딸기)    | Time-series Plant-Part              | TS_딸기_시계열생육(작물부위).zip
+ 5. [  5.57 GB] Training   | Strawberry (딸기)    | Pest Trap                           | TS_딸기_해충트랩.zip
+ 6. [ 35.11 GB] Training   | Cucumber (오이)      | Pest & Disease Damage               | TS_오이_병해충피해이미지.zip
+ 7. [ 26.60 GB] Training   | Cucumber (오이)      | Growth Indicator Measurement        | TS_오이_생육측정.zip
+ 8. [ 13.70 GB] Training   | Cucumber (오이)      | Time-series CCTV (Whole Greenhouse) | TS_오이_시계열생육(온실전체).zip
+ 9. [ 30.80 GB] Training   | Cucumber (오이)      | Time-series Plant-Part              | TS_오이_시계열생육(작물부위).zip
+10. [  2.11 GB] Training   | Cucumber (오이)      | Pest Trap                           | TS_오이_해충트랩.zip
+11. [  0.01 GB] Training   | Strawberry (딸기)    | Pest & Disease Damage               | TL_딸기_병해충피해이미지.zip
+12. [  0.01 GB] Training   | Strawberry (딸기)    | Growth Indicator Measurement        | TL_딸기_생육측정.zip
+13. [  0.03 GB] Training   | Strawberry (딸기)    | Time-series CCTV (Whole Greenhouse) | TL_딸기_시계열생육(온실전체).zip
+14. [  0.01 GB] Training   | Strawberry (딸기)    | Time-series Plant-Part              | TL_딸기_시계열생육(작물부위).zip
+15. [  0.00 GB] Training   | Strawberry (딸기)    | Pest Trap                           | TL_딸기_해충트랩.zip
+16. [  0.02 GB] Training   | Cucumber (오이)      | Pest & Disease Damage               | TL_오이_병해충피해이미지.zip
+17. [  0.02 GB] Training   | Cucumber (오이)      | Growth Indicator Measurement        | TL_오이_생육측정.zip
+18. [  0.05 GB] Training   | Cucumber (오이)      | Time-series CCTV (Whole Greenhouse) | TL_오이_시계열생육(온실전체).zip
+19. [  0.02 GB] Training   | Cucumber (오이)      | Time-series Plant-Part              | TL_오이_시계열생육(작물부위).zip
+20. [  0.00 GB] Training   | Cucumber (오이)      | Pest Trap                           | TL_오이_해충트랩.zip
+21. [  0.07 GB] Validation | Strawberry (딸기)    | Pest & Disease Damage               | VS_딸기_병해충피해이미지.zip
+22. [  2.27 GB] Validation | Strawberry (딸기)    | Growth Indicator Measurement        | VS_딸기_생육측정.zip
+23. [  0.70 GB] Validation | Strawberry (딸기)    | Time-series CCTV (Whole Greenhouse) | VS_딸기_시계열생육(온실전체).zip
+24. [  5.32 GB] Validation | Strawberry (딸기)    | Time-series Plant-Part              | VS_딸기_시계열생육(작물부위).zip
+25. [  0.19 GB] Validation | Strawberry (딸기)    | Pest Trap                           | VS_딸기_해충트랩.zip
+26. [  4.58 GB] Validation | Cucumber (오이)      | Pest & Disease Damage               | VS_오이_병해충피해이미지.zip
+27. [  4.34 GB] Validation | Cucumber (오이)      | Growth Indicator Measurement        | VS_오이_생육측정.zip
+28. [  1.71 GB] Validation | Cucumber (오이)      | Time-series CCTV (Whole Greenhouse) | VS_오이_시계열생육(온실전체).zip
+29. [  5.87 GB] Validation | Cucumber (오이)      | Time-series Plant-Part              | VS_오이_시계열생육(작물부위).zip
+30. [  0.24 GB] Validation | Cucumber (오이)      | Pest Trap                           | VS_오이_해충트랩.zip
+31. [  0.00 GB] Validation | Strawberry (딸기)    | Pest & Disease Damage               | VL_딸기_병해충피해이미지.zip
+32. [  0.00 GB] Validation | Strawberry (딸기)    | Growth Indicator Measurement        | VL_딸기_생육측정.zip
+33. [  0.00 GB] Validation | Strawberry (딸기)    | Time-series CCTV (Whole Greenhouse) | VL_딸기_시계열생육(온실전체).zip
+34. [  0.00 GB] Validation | Strawberry (딸기)    | Time-series Plant-Part              | VL_딸기_시계열생육(작물부위).zip
+35. [  0.00 GB] Validation | Strawberry (딸기)    | Pest Trap                           | VL_딸기_해충트랩.zip
+36. [  0.00 GB] Validation | Cucumber (오이)      | Pest & Disease Damage               | VL_오이_병해충피해이미지.zip
+37. [  0.00 GB] Validation | Cucumber (오이)      | Growth Indicator Measurement        | VL_오이_생육측정.zip
+38. [  0.01 GB] Validation | Cucumber (오이)      | Time-series CCTV (Whole Greenhouse) | VL_오이_시계열생육(온실전체).zip
+39. [  0.00 GB] Validation | Cucumber (오이)      | Time-series Plant-Part              | VL_오이_시계열생육(작물부위).zip
+40. [  0.00 GB] Validation | Cucumber (오이)      | Pest Trap                           | VL_오이_해충트랩.zip

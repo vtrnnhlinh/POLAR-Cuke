@@ -1,0 +1,72 @@
+{
+  "dataset": {
+    "title": "Smart Farm Cucumber and Strawberry Image Dataset",
+    "title_korean": "지능형 스마트팜(오이, 딸기) 데이터",
+    "dataset_sn": 71523,
+    "publisher": "National Information Society Agency (NIA) / AI-Hub",
+    "publisher_url": "https://www.aihub.or.kr",
+    "source_url": "https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71523",
+    "version": "1.1",
+    "date_published": "2023-07-26",
+    "date_last_updated": "2024-06-21",
+    "license": "AI-Hub Terms of Use (Academic / Domestic AI Research)",
+    "license_restrictions": "Non-commercial research use only; redistribution and public mirroring strictly prohibited.",
+    "access_requirements": "Requires South Korean national identity verification (PASS mobile verification / I-PIN). Foreign national open access is not supported.",
+    "participating_institutions": [
+      {
+        "name": "FarmHannong (주식회사 팜한농)",
+        "role": "Lead Organization / Quality Control"
+      },
+      {
+        "name": "Verafarm (농업회사법인 주식회사 베라팜)",
+        "role": "Data Processing"
+      },
+      {
+        "name": "Cultilabs (주식회사 컬티랩스)",
+        "role": "Data Construction / Growth Index Model Development"
+      },
+      {
+        "name": "Yeonam University Industry-Academic Cooperation Foundation (연암대학교 산학협력단)",
+        "role": "Data Construction"
+      }
+    ],
+    "total_images_documented": 270989,
+    "cucumber_images_documented": 161332,
+    "strawberry_images_documented": 109657,
+    "total_volume_gb": 199.44,
+    "cucumber_volume_gb": 125.16,
+    "strawberry_volume_gb": 74.27,
+    "cucumber_categories": {
+      "cctv_time_series_whole_greenhouse": 86860,
+      "plant_part_time_series": 33521,
+      "growth_indicator_measurement": 23040,
+      "disease_damage": 15926,
+      "pest_trap": 1985
+    },
+    "cucumber_cultivar": "Baekdadagi (오이 백다다기, Cucumis sativus L.)",
+    "image_specifications": {
+      "format": "JPEG (.jpg)",
+      "color_space": "RGB 3-channel",
+      "resolution": "800x600 (CCTV overview) to high-resolution macro"
+    },
+    "annotation_specifications": {
+      "format": "JSON",
+      "labeling_types": [
+        "bounding_box",
+        "polygon_segmentation"
+      ],
+      "key_classes": [
+        "성숙과 (mature fruit)",
+        "유과 (immature fruit)",
+        "개화 (flower)",
+        "생장점 (growth point)",
+        "줄기 (stem)",
+        "잎 (leaf)"
+      ]
+    },
+    "yield_labels_available": false,
+    "paired_sensors_available": false,
+    "relationship_to_wur_or_rda": "None (Disjoint geography, cultivar, year, and protocol)",
+    "acceptance_classification": "Suitable only for exploratory visual analysis (Unsuitable for POLAR-Cuke core yield forecasting)"
+  }
+}

@@ -1,0 +1,46 @@
+AI-HUB SMART FARM CUCUMBER & STRAWBERRY (SN: 71523) QUALITY AUDIT
+Generated for: POLAR-Cuke (vtrnnhlinh/POLAR-Cuke#6)
+================================================================================
+
+1. VERIFICATION OF REPORTED IMAGE COUNTS
+--------------------------------------------------------------------------------
+Documented Total Images:   270,989
+  - Cucumber (오이):       161,332 images (59.5%)
+    * CCTV Time-series:     86,860 images (53.8% of cucumber)
+    * Plant-part Images:    33,521 images (20.8% of cucumber)
+    * Growth Indicators:    23,040 images (14.3% of cucumber)
+    * Disease Symptoms:     15,926 images (9.9% of cucumber)
+    * Pest Monitoring Trap:  1,985 images (1.2% of cucumber)
+  - Strawberry (딸기):     109,657 images (40.5%)
+Verification: Documented image counts precisely match across all portal tables.
+
+2. ACCESS, LICENSING & REGISTRATION RESTRICTIONS
+--------------------------------------------------------------------------------
+Access Model:               Restricted Government Portal (AI-Hub / NIA)
+Citizenship Gate:           STRICT: '내국인만 데이터 신청이 가능합니다' (Domestic Korean citizens only)
+Identity Verification:      Requires Korean Mobile Identity (PASS/SMS) or domestic I-PIN
+Download Protocol:          Requires project review/approval; multi-part split ZIP via AI-Hub Shell
+License Agreement:          AI-Hub Terms of Use (Non-commercial research / domestic AI development)
+Redistribution Prohibition: STRICT: Public redistribution, re-hosting, and open mirroring are PROHIBITED
+
+3. IDENTITY & SENSOR ALIGNMENT FEASIBILITY
+--------------------------------------------------------------------------------
+Plant-Level Tracking:       ABSENT. CCTV cameras monitor entire multi-plant rows; individual plant ID is '구분없음' (1).
+Farm / Greenhouse ID:       MASKED / ANONYMIZED. Collected across private testbeds/farms without disclosed GPS.
+Harvest / Yield Labels:     COMPLETELY ABSENT. No harvest weight (kg), daily picked count, or production logs.
+Paired Sensor Records:      ABSENT. Dataset 71523 contains only computer vision images and bounding boxes.
+Relationship with WUR/RDA:  ZERO. Independent Korean 2022 dataset; completely disjoint from WUR 2018 (Netherlands).
+Pairing Verdict:            IMPOSSIBLE. Any pairing between AI-Hub images and WUR/RDA sensors violates causality.
+
+4. ACCEPTANCE CRITERIA CLASSIFICATION & DECISION RULE
+--------------------------------------------------------------------------------
+DECISION RULE ENFORCEMENT:
+  'Do not combine AI-Hub images with WUR or RDA observations unless a documented relationship
+   establishes the same plant/farm and compatible observation time.'
+  STATUS: ENFORCED. No synthetic cross-dataset multimodal pairing will be performed.
+
+FINAL ACCEPTANCE CLASSIFICATION:
+  CLASSIFICATION: 'Suitable only for exploratory visual analysis' (within domestic access)
+  POLAR-CUKE CORE PIPELINE STATUS: 'Unsuitable for POLAR-Cuke core multimodal yield forecasting'
+  REASON: Strict nationality gate prevents open reproduction; lack of yield labels prevents target supervision;
+          absence of paired sensors prevents genuine multimodal representation learning.
