@@ -1,0 +1,182 @@
+Common Schema Missingness Report
+Generated: 2026-11-16T15:12:22Z
+========================================================================
+
+File: data/interim/wur/AiCU_climate.parquet
+  Rows: 33,133  Columns: 21
+  indoor_co2_ppm                                          142  (  0.4%)
+  indoor_hum_deficit_gpkg                                 142  (  0.4%)
+  pipe_grow_temp_c                                        142  (  0.4%)
+  pipe_low_temp_c                                         142  (  0.4%)
+  indoor_rh_pct                                           143  (  0.4%)
+  indoor_temp_c                                           142  (  0.4%)
+  assimilation_light_wm2                                  142  (  0.4%)
+  blackout_screen_pct                                     142  (  0.4%)
+  energy_screen_pct                                       142  (  0.4%)
+  vent_lee_pct                                            142  (  0.4%)
+  vent_wind_pct                                           142  (  0.4%)
+
+File: data/interim/wur/AiCU_production.parquet
+  Rows: 116  Columns: 16
+  → No missing values.
+
+File: data/interim/wur/AiCU_irrigation.parquet
+  Rows: 116  Columns: 14
+  drain_ml_m2                                               1  (  0.9%)
+  water_ml_m2                                               1  (  0.9%)
+
+File: data/interim/wur/Croperators_climate.parquet
+  Rows: 33,133  Columns: 21
+  indoor_co2_ppm                                          142  (  0.4%)
+  indoor_hum_deficit_gpkg                                 142  (  0.4%)
+  pipe_grow_temp_c                                        142  (  0.4%)
+  pipe_low_temp_c                                         142  (  0.4%)
+  indoor_rh_pct                                           142  (  0.4%)
+  indoor_temp_c                                           142  (  0.4%)
+  assimilation_light_wm2                                  142  (  0.4%)
+  blackout_screen_pct                                     142  (  0.4%)
+  energy_screen_pct                                       142  (  0.4%)
+  vent_lee_pct                                            142  (  0.4%)
+  vent_wind_pct                                           142  (  0.4%)
+
+File: data/interim/wur/Croperators_production.parquet
+  Rows: 116  Columns: 16
+  → No missing values.
+
+File: data/interim/wur/Croperators_irrigation.parquet
+  Rows: 116  Columns: 14
+  drain_ml_m2                                               1  (  0.9%)
+  water_ml_m2                                               1  (  0.9%)
+
+File: data/interim/wur/DeepGreens_climate.parquet
+  Rows: 33,133  Columns: 21
+  indoor_co2_ppm                                          142  (  0.4%)
+  indoor_hum_deficit_gpkg                                 142  (  0.4%)
+  pipe_grow_temp_c                                        142  (  0.4%)
+  pipe_low_temp_c                                         142  (  0.4%)
+  indoor_rh_pct                                           143  (  0.4%)
+  indoor_temp_c                                           142  (  0.4%)
+  assimilation_light_wm2                                  142  (  0.4%)
+  blackout_screen_pct                                  33,133  (100.0%)
+  energy_screen_pct                                       142  (  0.4%)
+  vent_lee_pct                                            142  (  0.4%)
+  vent_wind_pct                                           142  (  0.4%)
+
+File: data/interim/wur/DeepGreens_production.parquet
+  Rows: 116  Columns: 16
+  → No missing values.
+
+File: data/interim/wur/DeepGreens_irrigation.parquet
+  Rows: 116  Columns: 14
+  drain_ml_m2                                               1  (  0.9%)
+  water_ml_m2                                               1  (  0.9%)
+
+File: data/interim/wur/iGrow_climate.parquet
+  Rows: 33,133  Columns: 21
+  indoor_co2_ppm                                          142  (  0.4%)
+  indoor_hum_deficit_gpkg                                 142  (  0.4%)
+  pipe_grow_temp_c                                        142  (  0.4%)
+  pipe_low_temp_c                                         142  (  0.4%)
+  indoor_rh_pct                                           143  (  0.4%)
+  indoor_temp_c                                           142  (  0.4%)
+  assimilation_light_wm2                                  142  (  0.4%)
+  blackout_screen_pct                                     142  (  0.4%)
+  energy_screen_pct                                       142  (  0.4%)
+  vent_lee_pct                                            142  (  0.4%)
+  vent_wind_pct                                           142  (  0.4%)
+
+File: data/interim/wur/iGrow_production.parquet
+  Rows: 116  Columns: 16
+  → No missing values.
+
+File: data/interim/wur/iGrow_irrigation.parquet
+  Rows: 116  Columns: 14
+  drain_ml_m2                                               1  (  0.9%)
+  water_ml_m2                                               1  (  0.9%)
+
+File: data/interim/wur/ReferenceGrowers_climate.parquet
+  Rows: 33,133  Columns: 21
+  indoor_co2_ppm                                          142  (  0.4%)
+  indoor_hum_deficit_gpkg                                 142  (  0.4%)
+  pipe_grow_temp_c                                        142  (  0.4%)
+  pipe_low_temp_c                                         142  (  0.4%)
+  indoor_rh_pct                                           143  (  0.4%)
+  indoor_temp_c                                           142  (  0.4%)
+  assimilation_light_wm2                                  142  (  0.4%)
+  blackout_screen_pct                                     142  (  0.4%)
+  energy_screen_pct                                       142  (  0.4%)
+  vent_lee_pct                                            142  (  0.4%)
+  vent_wind_pct                                           142  (  0.4%)
+
+File: data/interim/wur/ReferenceGrowers_production.parquet
+  Rows: 116  Columns: 16
+  → No missing values.
+
+File: data/interim/wur/ReferenceGrowers_irrigation.parquet
+  Rows: 116  Columns: 14
+  drain_ml_m2                                               1  (  0.9%)
+  water_ml_m2                                               1  (  0.9%)
+
+File: data/interim/wur/Sonoma_climate.parquet
+  Rows: 33,133  Columns: 21
+  indoor_co2_ppm                                          142  (  0.4%)
+  indoor_hum_deficit_gpkg                                 142  (  0.4%)
+  pipe_grow_temp_c                                        142  (  0.4%)
+  pipe_low_temp_c                                         142  (  0.4%)
+  indoor_rh_pct                                           143  (  0.4%)
+  indoor_temp_c                                           142  (  0.4%)
+  assimilation_light_wm2                                  142  (  0.4%)
+  blackout_screen_pct                                     142  (  0.4%)
+  energy_screen_pct                                       142  (  0.4%)
+  vent_lee_pct                                            142  (  0.4%)
+  vent_wind_pct                                           142  (  0.4%)
+
+File: data/interim/wur/Sonoma_production.parquet
+  Rows: 116  Columns: 16
+  → No missing values.
+
+File: data/interim/wur/Sonoma_irrigation.parquet
+  Rows: 116  Columns: 14
+  drain_ml_m2                                               1  (  0.9%)
+  water_ml_m2                                               1  (  0.9%)
+
+File: data/interim/rda/rda_cucumber_environment.parquet
+  Rows: 118,936  Columns: 20
+  outdoor_temp_c                                       61,713  ( 51.9%)
+  wind_direction_deg                                   78,619  ( 66.1%)
+  wind_speed_ms                                        64,163  ( 53.9%)
+  solar_irradiance_wm2                                 46,028  ( 38.7%)
+  solar_irr_cum_wm2                                    71,747  ( 60.3%)
+  rain_detected                                        88,222  ( 74.2%)
+  indoor_temp_c                                         7,819  (  6.6%)
+  indoor_rh_pct                                        11,795  (  9.9%)
+  indoor_co2_ppm                                       17,023  ( 14.3%)
+  soil_temp_c                                          14,304  ( 12.0%)
+
+File: data/interim/rda/rda_cucumber_growth.parquet
+  Rows: 203,984  Columns: 19
+  plant_height_cm                                       3,189  (  1.6%)
+  node_number                                              29  (  0.0%)
+  stem_diam_mm                                        114,456  ( 56.1%)
+  internode_len_cm                                      3,180  (  1.6%)
+  leaf_length_cm                                      114,714  ( 56.2%)
+  leaf_width_cm                                       114,714  ( 56.2%)
+  leaf_count                                           22,582  ( 11.1%)
+  node_female_flower                                    5,502  (  2.7%)
+  node_fruit_count                                      6,774  (  3.3%)
+
+File: data/interim/rda/rda_cucumber_production.parquet
+  Rows: 7,972  Columns: 12
+  → No missing values.
+
+File: data/interim/beijing/beijing_cucumber.parquet
+  Rows: 60,444  Columns: 18
+  available_at                                         26,122  ( 43.2%)
+  indoor_temp_c                                        26,122  ( 43.2%)
+  indoor_rh_pct                                        26,122  ( 43.2%)
+  soil_moisture_20cm_pct                               34,316  ( 56.8%)
+  soil_moisture_40cm_pct                               34,316  ( 56.8%)
+  soil_moisture_60cm_pct                               34,316  ( 56.8%)
+  soil_temp_20cm_c                                     34,316  ( 56.8%)
+  soil_temp_40cm_c                                     34,316  ( 56.8%)
+  soil_temp_60cm_c                                     34,316  ( 56.8%)
