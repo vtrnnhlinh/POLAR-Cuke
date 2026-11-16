@@ -1,0 +1,14 @@
+BEIJING GREENHOUSE SENSOR DATASET 2024-2025
+Dataset Inventory
+========================================
+
+Root: data/raw/beijing/
+
+Files: 4
+Total size: 4,814,747 bytes
+
+File list:
+- 温室快菜种植监测数据（2024年12月24日~2025年2月6日）.xlsx (281,350 bytes)
+- 温室春茬番茄种植监测数据（2024年5月1日~2025年7月10日）.xlsx (1,205,613 bytes)
+- 温室秋茬番茄种植监测数据（2024年8月28日~2025年1月10日）.xlsx (1,428,388 bytes)
+- 温室黄瓜种植监测数据（2025年3月6日~2025年7月3日）.xlsx (1,899,396 bytes)

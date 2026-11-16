@@ -1,0 +1,10 @@
+BEIJING GREENHOUSE SENSOR DATASET 2024-2025
+Extracted dataset directory structure
+========================================
+
+Root: data/raw/beijing/
+
+f 温室快菜种植监测数据（2024年12月24日~2025年2月6日）.xlsx
+f 温室春茬番茄种植监测数据（2024年5月1日~2025年7月10日）.xlsx
+f 温室秋茬番茄种植监测数据（2024年8月28日~2025年1月10日）.xlsx
+f 温室黄瓜种植监测数据（2025年3月6日~2025年7月3日）.xlsx

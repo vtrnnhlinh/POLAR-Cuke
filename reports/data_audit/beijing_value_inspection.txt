@@ -1,0 +1,185 @@
+BEIJING 2024-2025 GREENHOUSE SENSOR DATASET VALUE & STATISTICAL REPORT
+Dataset DOI: 10.57760/sciencedb.agriculture.00283
+Generated from: /Users/penpen1112003/Q2_Paper/POLAR-Cuke/scripts/data_audit/beijing_value_inspection.py
+
+==========================================================================================
+CROP EXPERIMENT: Fast-growing Cabbage (快菜) (‘京研快菜’)
+==========================================================================================
+
+[AIR TEMPERATURE & HUMIDITY: Greenhouse Doll II]
+          count       mean        std    min      5%    50%     95%    max      skew
+空气温度（℃）  3971.0  26.557243   7.358513   4.32  14.515  26.78  37.475  40.99 -0.174897
+空气湿度（%）  3971.0  55.861000  12.619673  21.16  37.430  53.83  75.950  89.36  0.083719
+
+Pearson correlation Tair vs RHair: -0.5378
+  -> Expected negative psychrometric coupling (higher T -> lower RH) observed.
+
+[SOIL MOISTURE & TEMPERATURE: DZN2 Multi-Depth Probe]
+
+--- Raw Soil Statistics (including unmasked sentinel error codes) ---
+              count       mean       std   min   50%   max
+20cm土壤水分（%）  4224.0  36.190578  3.285530  28.6  37.5  42.6
+40cm土壤水分（%）  4224.0  44.022893  1.739571  38.3  44.8  46.3
+60cm土壤水分（%）  4224.0  46.492211  0.250036  45.5  46.6  46.9
+20cm土壤温度（℃）  4224.0  16.781581  0.925499  14.4  16.9  18.9
+40cm土壤温度（℃）  4224.0  17.348035  0.572717  16.2  17.4  18.6
+60cm土壤温度（℃）  4224.0  17.527509  0.425018  16.8  17.5  18.4
+
+--- No sentinel error codes detected in soil moisture stream. ---
+
+--- Soil Moisture Cross-Depth Correlation Matrix ---
+             20cm土壤水分（%）  40cm土壤水分（%）  60cm土壤水分（%）
+20cm土壤水分（%）       1.0000       0.9201       0.3528
+40cm土壤水分（%）       0.9201       1.0000       0.6192
+60cm土壤水分（%）       0.3528       0.6192       1.0000
+
+--- Soil Temperature Cross-Depth Correlation Matrix ---
+             20cm土壤温度（℃）  40cm土壤温度（℃）  60cm土壤温度（℃）
+20cm土壤温度（℃）       1.0000       0.8068       0.6753
+40cm土壤温度（℃）       0.8068       1.0000       0.9446
+60cm土壤温度（℃）       0.6753       0.9446       1.0000
+
+--- Thermal Buffering Across Depths ---
+  20cm土壤温度（℃）: std=0.93 ℃, range=4.50 ℃
+  40cm土壤温度（℃）: std=0.57 ℃, range=2.40 ℃
+  60cm土壤温度（℃）: std=0.43 ℃, range=1.60 ℃
+
+==========================================================================================
+CROP EXPERIMENT: Spring Tomato (春茬番茄) (‘京采8号’)
+==========================================================================================
+
+[AIR TEMPERATURE & HUMIDITY: Greenhouse Doll II]
+           count       mean        std    min      5%    50%    95%    max      skew
+空气温度（℃）  18791.0  25.398510   5.852458  10.27  16.680  24.55  35.60  45.82  0.214025
+空气湿度（%）  18791.0  72.653246  16.366616  15.92  39.465  77.48  91.07  94.68 -0.938543
+
+Pearson correlation Tair vs RHair: -0.6217
+  -> Expected negative psychrometric coupling (higher T -> lower RH) observed.
+
+[SOIL MOISTURE & TEMPERATURE: DZN2 Multi-Depth Probe]
+
+--- Raw Soil Statistics (including unmasked sentinel error codes) ---
+               count       mean       std    min    50%    max
+20cm土壤水分（%）  15464.0  17.829657  3.580442  10.01  17.83  27.20
+40cm土壤水分（%）  15464.0  31.171315  3.052997  21.39  31.23  41.81
+60cm土壤水分（%）  15464.0  32.082827  1.734209  26.85  32.10  38.62
+20cm土壤温度（℃）  15464.0  22.166668  1.117992  19.00  22.25  25.38
+40cm土壤温度（℃）  15464.0  21.571430  0.784227  19.94  21.75  23.56
+60cm土壤温度（℃）  15464.0  21.054510  0.629828  20.00  21.06  22.69
+
+--- No sentinel error codes detected in soil moisture stream. ---
+
+--- Soil Moisture Cross-Depth Correlation Matrix ---
+             20cm土壤水分（%）  40cm土壤水分（%）  60cm土壤水分（%）
+20cm土壤水分（%）       1.0000       0.7357       0.7286
+40cm土壤水分（%）       0.7357       1.0000       0.9249
+60cm土壤水分（%）       0.7286       0.9249       1.0000
+
+--- Soil Temperature Cross-Depth Correlation Matrix ---
+             20cm土壤温度（℃）  40cm土壤温度（℃）  60cm土壤温度（℃）
+20cm土壤温度（℃）       1.0000       0.8763       0.7901
+40cm土壤温度（℃）       0.8763       1.0000       0.9648
+60cm土壤温度（℃）       0.7901       0.9648       1.0000
+
+--- Thermal Buffering Across Depths ---
+  20cm土壤温度（℃）: std=1.12 ℃, range=6.38 ℃
+  40cm土壤温度（℃）: std=0.78 ℃, range=3.62 ℃
+  60cm土壤温度（℃）: std=0.63 ℃, range=2.69 ℃
+
+==========================================================================================
+CROP EXPERIMENT: Autumn Tomato (秋茬番茄) (‘京采8号’)
+==========================================================================================
+
+[AIR TEMPERATURE & HUMIDITY: Greenhouse Doll II]
+           count       mean        std    min      5%    50%    95%    max      skew
+空气温度（℃）  38570.0  19.562117   7.213835   6.43   8.829  18.86  32.55  40.25  0.328547
+空气湿度（%）  38570.0  77.038624  14.613850  16.36  44.620  83.10  90.52  94.65 -1.485550
+
+Pearson correlation Tair vs RHair: -0.6318
+  -> Expected negative psychrometric coupling (higher T -> lower RH) observed.
+
+[SOIL MOISTURE & TEMPERATURE: DZN2 Multi-Depth Probe]
+
+--- Raw Soil Statistics (including unmasked sentinel error codes) ---
+              count       mean        std     min   50%   max
+20cm土壤水分（%）  9639.0  22.060141  54.396177 -1000.0  24.1  41.1
+40cm土壤水分（%）  9639.0  35.481886  55.099905 -1000.0  38.9  45.8
+60cm土壤水分（%）  9639.0  35.677726  55.094480 -1000.0  38.6  45.6
+20cm土壤温度（℃）  9639.0  20.149518   3.753648    12.3  19.6  27.7
+40cm土壤温度（℃）  9639.0  20.368887   3.467034    10.7  19.8  27.4
+60cm土壤温度（℃）  9639.0  20.464011   3.184839    10.8  19.8  26.7
+
+--- Cleaned Soil Statistics (Masked 81 occurrences of -1000.0) ---
+              count       mean       std   min    5%   50%   95%   max      skew
+20cm土壤水分（%）  9612.0  24.931097  4.941551   0.0  19.1  24.1  33.4  41.1 -0.724718
+40cm土壤水分（%）  9612.0  38.390543  4.887977   0.0  32.3  38.9  43.5  45.8 -4.601729
+60cm土壤水分（%）  9612.0  38.586933  4.706395   0.0  33.7  38.6  45.0  45.6 -5.095738
+20cm土壤温度（℃）  9639.0  20.149518  3.753648  12.3  14.1  19.6  25.9  27.7  0.051872
+40cm土壤温度（℃）  9639.0  20.368887  3.467034  10.7  14.7  19.8  25.8  27.4  0.016374
+60cm土壤温度（℃）  9639.0  20.464011  3.184839  10.8  15.1  19.8  25.5  26.7 -0.026181
+
+--- Soil Moisture Cross-Depth Correlation Matrix ---
+             20cm土壤水分（%）  40cm土壤水分（%）  60cm土壤水分（%）
+20cm土壤水分（%）       1.0000       0.8691       0.8541
+40cm土壤水分（%）       0.8691       1.0000       0.9891
+60cm土壤水分（%）       0.8541       0.9891       1.0000
+
+--- Soil Temperature Cross-Depth Correlation Matrix ---
+             20cm土壤温度（℃）  40cm土壤温度（℃）  60cm土壤温度（℃）
+20cm土壤温度（℃）       1.0000       0.9906       0.9835
+40cm土壤温度（℃）       0.9906       1.0000       0.9978
+60cm土壤温度（℃）       0.9835       0.9978       1.0000
+
+--- Thermal Buffering Across Depths ---
+  20cm土壤温度（℃）: std=3.75 ℃, range=15.40 ℃
+  40cm土壤温度（℃）: std=3.47 ℃, range=16.70 ℃
+  60cm土壤温度（℃）: std=3.18 ℃, range=15.90 ℃
+
+==========================================================================================
+CROP EXPERIMENT: Cucumber (黄瓜) (‘中农26号’)
+==========================================================================================
+
+[AIR TEMPERATURE & HUMIDITY: Greenhouse Doll II]
+           count       mean        std   min     5%     50%    95%    max      skew
+空气温度（℃）  34322.0  23.602092   7.335068  7.72  12.91  22.630  36.28  43.26  0.277309
+空气湿度（%）  34322.0  64.439501  22.027048  9.54  24.75  69.715  90.75  95.02 -0.552171
+
+Pearson correlation Tair vs RHair: -0.7332
+  -> Expected negative psychrometric coupling (higher T -> lower RH) observed.
+
+[SOIL MOISTURE & TEMPERATURE: DZN2 Multi-Depth Probe]
+
+--- Raw Soil Statistics (including unmasked sentinel error codes) ---
+               count       mean        std     min   50%   max
+20cm土壤水分（%）  26128.0  34.629053   6.969482 -1000.0  33.9  41.7
+40cm土壤水分（%）  26128.0  41.172562  54.765270 -1000.0  45.0  46.6
+60cm土壤水分（%）  26128.0  41.574380  52.817237 -1000.0  44.5  45.1
+20cm土壤温度（℃）  26128.0  22.303915   2.463293    14.6  21.9  26.7
+40cm土壤温度（℃）  26128.0  21.531675   2.311944    14.8  21.2  25.4
+60cm土壤温度（℃）  26128.0  20.860483   2.180075    14.7  20.6  24.5
+
+--- Cleaned Soil Statistics (Masked 140 occurrences of -1000.0) ---
+               count       mean       std   min    5%   50%   95%   max      skew
+20cm土壤水分（%）  26127.0  34.668653  2.757008  29.7  30.6  33.9  39.0  41.7  0.181081
+40cm土壤水分（%）  26056.0  44.049612  1.903740  38.7  40.0  45.0  46.2  46.6 -0.837315
+60cm土壤水分（%）  26061.0  44.252155  0.673483  42.2  42.6  44.5  44.9  45.1 -1.470176
+20cm土壤温度（℃）  26128.0  22.303915  2.463293  14.6  19.3  21.9  26.1  26.7 -0.101373
+40cm土壤温度（℃）  26128.0  21.531675  2.311944  14.8  17.6  21.2  25.2  25.4 -0.169103
+60cm土壤温度（℃）  26128.0  20.860483  2.180075  14.7  16.6  20.6  24.4  24.5 -0.243520
+
+--- Soil Moisture Cross-Depth Correlation Matrix ---
+             20cm土壤水分（%）  40cm土壤水分（%）  60cm土壤水分（%）
+20cm土壤水分（%）       1.0000       0.7786       0.3336
+40cm土壤水分（%）       0.7786       1.0000       0.5623
+60cm土壤水分（%）       0.3336       0.5623       1.0000
+
+--- Soil Temperature Cross-Depth Correlation Matrix ---
+             20cm土壤温度（℃）  40cm土壤温度（℃）  60cm土壤温度（℃）
+20cm土壤温度（℃）       1.0000       0.9844       0.9628
+40cm土壤温度（℃）       0.9844       1.0000       0.9939
+60cm土壤温度（℃）       0.9628       0.9939       1.0000
+
+--- Thermal Buffering Across Depths ---
+  20cm土壤温度（℃）: std=2.46 ℃, range=12.10 ℃
+  40cm土壤温度（℃）: std=2.31 ℃, range=10.60 ℃
+  60cm土壤温度（℃）: std=2.18 ℃, range=9.80 ℃

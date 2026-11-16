@@ -1,0 +1,207 @@
+{
+  "dataset": {
+    "title": "2024−2025 Dataset of Air and Soil Temperature and Humidity for Greenhouse-Grown Vegetables in Beijing",
+    "title_chinese": "2024-2025年北京设施蔬菜空气与土壤温湿度数据集",
+    "publisher": "Science Data Bank",
+    "publisher_url": "https://www.scidb.cn",
+    "doi": "10.57760/sciencedb.agriculture.00283",
+    "doi_url": "https://doi.org/10.57760/sciencedb.agriculture.00283",
+    "dataset_id": "30ed918efdfa4c6385a0cd7e33bce7a9",
+    "version": "V1",
+    "date_published": "2025-12-22T02:15:36.603Z",
+    "license": "CC BY-NC-ND 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "license_terms": "Attribution-NonCommercial-NoDerivatives 4.0 International. Permitted for non-commercial research use; prohibits distribution of derived datasets.",
+    "access_conditions": "Publicly accessible via ScienceDB deposit",
+    "citation": "Zhang Shirui, Jia Yuxuan, Li Youli, Guo Yuanyuan, Qu Mingshan, Zhang Xin. 2024−2025 Dataset of Air and Soil Temperature and Humidity for Greenhouse-Grown Vegetables in Beijing. Science Data Bank, 2025. DOI: 10.57760/sciencedb.agriculture.00283",
+    "creators": [
+      {
+        "name": "Zhang Shirui",
+        "affiliation": "Intelligent Equipment Research Center, Beijing Academy of Agriculture and Forestry Sciences"
+      },
+      {
+        "name": "Jia Yuxuan",
+        "affiliation": "Shanxi Agricultural University"
+      },
+      {
+        "name": "Li Youli",
+        "affiliation": "Intelligent Equipment Research Center, Beijing Academy of Agriculture and Forestry Sciences"
+      },
+      {
+        "name": "Guo Yuanyuan",
+        "affiliation": "Nongxin Technology (Beijing) Co., Ltd."
+      },
+      {
+        "name": "Qu Mingshan",
+        "affiliation": "Beijing Agricultural Technology Extension Station"
+      },
+      {
+        "name": "Zhang Xin",
+        "affiliation": "Intelligent Equipment Research Center, Beijing Academy of Agriculture and Forestry Sciences"
+      }
+    ],
+    "geographic_location": {
+      "facility": "Beijing Xiaotangshan National Precision Agriculture Research and Demonstration Base",
+      "facility_chinese": "北京小汤山国家精准农业研究示范基地",
+      "city": "Beijing",
+      "country": "China",
+      "latitude": 40.180366,
+      "longitude": 116.450659
+    },
+    "greenhouse_characteristics": {
+      "type": "Solar greenhouse (brick back-wall)",
+      "type_chinese": "砖墙日光温室",
+      "number_of_greenhouses": 2,
+      "length_m": 50.0,
+      "cultivation_length_m": 46.7,
+      "width_m": 7.0,
+      "total_area_m2": 350.0,
+      "cultivation_area_m2": 326.9,
+      "back_wall_height_m": 2.5,
+      "ridge_height_m": 3.7,
+      "planting_layout": "East-West ridge soil planting, 4 ridges, 46.7 m each",
+      "sensor_placement": "Center of the 2nd ridge"
+    },
+    "sensors": {
+      "air": {
+        "model": "Greenhouse Doll II",
+        "model_chinese": "温室娃娃II",
+        "variables": [
+          "Air Temperature (℃)",
+          "Air Relative Humidity (%)"
+        ],
+        "temperature_error": "≤ ±0.2 ℃",
+        "humidity_error": "≤ ±2 %",
+        "nominal_frequency": "5 minutes"
+      },
+      "soil": {
+        "model": "DZN2",
+        "variables": [
+          "Soil Moisture at 20cm, 40cm, 60cm (%)",
+          "Soil Temperature at 20cm, 40cm, 60cm (℃)"
+        ],
+        "moisture_error": "≤ ±3 %",
+        "temperature_error": "≤ ±0.5 ℃",
+        "nominal_frequency": "15 minutes",
+        "empirical_frequency_notes": "15 min in Fast Cabbage and Autumn Tomato; 5 min in Spring Tomato; transitions from 15 min to 5 min on 2025-04-18 in Cucumber",
+        "sentinel_error_code": "-1000.0 observed on moisture channels during sensor dropouts"
+      }
+    },
+    "crops_and_cultivations": [
+      {
+        "crop_english": "Cucumber",
+        "crop_chinese": "黄瓜",
+        "crop_category": "Melon vegetable",
+        "cultivar": "Zhongnong No. 26",
+        "cultivar_chinese": "中农26号",
+        "filename": "温室黄瓜种植监测数据（2025年3月6日~2025年7月3日）.xlsx",
+        "date_range": {
+          "start": "2025-03-06",
+          "end": "2025-07-03"
+        },
+        "growth_stages": {
+          "transplanting": "2025.3.6",
+          "vegetative_growth": "2025.3.6-2025.3.25",
+          "flowering_and_fruit_setting": "2025.3.26-2025.4.7",
+          "harvest_period": "2025.4.8-2025.7.3"
+        },
+        "record_counts": {
+          "air_records": 34322,
+          "soil_records": 26128,
+          "total_records": 60450
+        },
+        "harvest_labels_present": false
+      },
+      {
+        "crop_english": "Spring Tomato",
+        "crop_chinese": "春茬番茄",
+        "crop_category": "Fruit vegetable",
+        "cultivar": "Jingcai No. 8",
+        "cultivar_chinese": "京采8号",
+        "filename": "温室春茬番茄种植监测数据（2024年5月1日~2025年7月10日）.xlsx",
+        "date_range": {
+          "start": "2024-05-01",
+          "end": "2024-07-10"
+        },
+        "growth_stages": {
+          "transplanting": "2024.4.1",
+          "seedling": "2024.4.1-2024.4.29",
+          "flowering_and_fruit_setting": "2024.4.30-2024.5.11",
+          "fruit_expansion": "2024.5.12-2024.6.4",
+          "color_turning": "2024.6.5-2024.6.11",
+          "harvest_period": "2024.6.12-2024.6.25"
+        },
+        "record_counts": {
+          "air_records": 18791,
+          "soil_records": 15464,
+          "total_records": 34255
+        },
+        "harvest_labels_present": false
+      },
+      {
+        "crop_english": "Autumn Tomato",
+        "crop_chinese": "秋茬番茄",
+        "crop_category": "Fruit vegetable",
+        "cultivar": "Jingcai No. 8",
+        "cultivar_chinese": "京采8号",
+        "filename": "温室秋茬番茄种植监测数据（2024年8月28日~2025年1月10日）.xlsx",
+        "date_range": {
+          "start": "2024-08-27",
+          "end": "2025-01-10"
+        },
+        "growth_stages": {
+          "transplanting": "2024.8.27",
+          "seedling": "2024.8.27-2024.9.25",
+          "flowering_and_fruit_setting": "2024.9.26-2024.10.5",
+          "fruit_expansion": "2024.10.6-2024.12.22",
+          "color_turning": "2024.12.23-2024.12.26",
+          "harvest_period": "2024.12.27-2025.1.10"
+        },
+        "record_counts": {
+          "air_records": 38570,
+          "soil_records": 9639,
+          "total_records": 48209
+        },
+        "harvest_labels_present": false
+      },
+      {
+        "crop_english": "Fast-growing Cabbage",
+        "crop_chinese": "快菜",
+        "crop_category": "Leafy vegetable",
+        "cultivar": "Jingyan Fast-growing Vegetable",
+        "cultivar_chinese": "京研快菜",
+        "filename": "温室快菜种植监测数据（2024年12月24日~2025年2月6日）.xlsx",
+        "date_range": {
+          "start": "2024-12-25",
+          "end": "2025-02-06"
+        },
+        "growth_stages": {
+          "transplanting": "2024.12.24",
+          "seedling": "2024.12.24-2024.1.15",
+          "rosette": "2024.1.16-2024.2.1",
+          "harvest_period": "2024.2.2-2024.2.6"
+        },
+        "record_counts": {
+          "air_records": 3971,
+          "soil_records": 4224,
+          "total_records": 8195
+        },
+        "harvest_labels_present": false
+      }
+    ],
+    "yield_label_investigation": {
+      "harvest_weights_available": false,
+      "fruit_counts_available": false,
+      "harvest_dates_granularity": "Phenological stage date range only in 生育期 table",
+      "forecasting_target_constructible": false,
+      "decision_rule_applied": "Yield labels are absent. This dataset must NOT be used to calculate or report yield forecasting metrics."
+    }
+  },
+  "local_copy": {
+    "relative_path": "data/raw/beijing/",
+    "checksum_manifest": "metadata/beijing_sha256.txt",
+    "total_raw_files": 4,
+    "file_format": "XLSX",
+    "total_bytes": 4814747
+  }
+}
